@@ -6,15 +6,66 @@ on:
         - cron: '0 */6 * * *'
     push:
         branches:
-            - main
+            - master
 
 jobs:
-    publish:
+    check:
         runs-on: ubuntu-latest
+        outputs:
+            matrix: ${{ steps.changed.outputs.matrix }}
+            has_changes: ${{ steps.changed.outputs.has_changes }}
         steps:
-            -   name: Checkout workflow repo 🌏
-                uses: actions/checkout@900f2210b1d28bbbd0bd22d17926b9e224e8f231 # v6.0.2
+            -   name: Check for new commits in each repo 🔍
+                id: changed
+                run: |
+                    REPOS=(
+                        "Kotatsu-Redo/kotatsu-parsers-redo"
+                        "YakaTeam/kotatsu-parsers"
+                        "TamerAli-0/kotatsu-parsers"
+                        "glitch-228/kaisoku-parsers"
+                        "hany18h/kotatsu-parsers"
+                    )
 
+                    CHANGED=()
+
+                    for REPO in "${REPOS[@]}"; do
+                        OWNER=$(echo "$REPO" | cut -d'/' -f1)
+                        REMOTE_SHA=$(git ls-remote "https://github.com/$REPO.git" HEAD | cut -f1)
+
+                        # Download last known SHA for this repo
+                        gh release download latest \
+                            --pattern "${OWNER}.sha" \
+                            --dir /tmp/shas 2>/dev/null || true
+
+                        SHA_FILE="/tmp/shas/${OWNER}.sha"
+                        if [ -f "$SHA_FILE" ] && [ "$(cat $SHA_FILE)" = "$REMOTE_SHA" ]; then
+                            echo "⏭️  $REPO — no changes, skipping"
+                        else
+                            echo "✅  $REPO — new commit detected, will build"
+                            CHANGED+=("{\"repo\":\"$REPO\",\"owner\":\"$OWNER\",\"sha\":\"$REMOTE_SHA\"}")
+                        fi
+                    done
+
+                    if [ ${#CHANGED[@]} -eq 0 ]; then
+                        echo "has_changes=false" >> $GITHUB_OUTPUT
+                        echo "matrix={\"include\":[]}" >> $GITHUB_OUTPUT
+                    else
+                        MATRIX=$(printf '%s\n' "${CHANGED[@]}" | jq -sc '{include: .}')
+                        echo "has_changes=true" >> $GITHUB_OUTPUT
+                        echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+                    fi
+                env:
+                    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    build:
+        needs: check
+        if: needs.check.outputs.has_changes == 'true'
+        runs-on: ubuntu-latest
+        strategy:
+            fail-fast: false
+            matrix: ${{ fromJson(needs.check.outputs.matrix) }}
+
+        steps:
             -   name: Set up Java environment 🔧
                 uses: actions/setup-java@b622de1dfa918ecc0ab28f40cd42e3c3752cd6c5 # v5.2.0
                 with:
@@ -29,74 +80,66 @@ jobs:
             -   name: Setup Android SDK 🚀
                 uses: android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699 # v4.0.1
 
-            -   name: Download existing JARs from latest release 📥
+            -   name: Clone repo 🔁
+                run: git clone --depth=1 "https://github.com/${{ matrix.repo }}.git" target-repo
+
+            -   name: Run assemble tasks 🏗️
+                working-directory: target-repo
+                run: ./gradlew assemble --rerun-tasks
+
+            -   name: Process with d8 🚀
+                working-directory: target-repo
                 run: |
-                    mkdir -p output
-                    # Pull all existing JARs from the current latest release (ignore error if no release yet)
-                    gh release download latest --pattern "*.jar" --dir output || echo "No existing release found, starting fresh"
+                    OWNER="${{ matrix.owner }}"
+                    LIB_PATH="build/libs/kotatsu-parsers.jar"
+                    OUT_PATH="build/libs/${OWNER}.jar"
+
+                    if [ -f "$LIB_PATH" ]; then
+                        d8 --release "$LIB_PATH" --output "$OUT_PATH"
+                    else
+                        FALLBACK=$(find build/libs -name "*.jar" | head -1)
+                        [ -n "$FALLBACK" ] && d8 --release "$FALLBACK" --output "$OUT_PATH"
+                    fi
+
+                    # Save new SHA
+                    echo "${{ matrix.sha }}" > "build/libs/${OWNER}.sha"
+                continue-on-error: true
+
+            -   name: Upload as workflow artifact 📦
+                uses: actions/upload-artifact@v4
+                with:
+                    name: ${{ matrix.owner }}
+                    path: |
+                        target-repo/build/libs/${{ matrix.owner }}.jar
+                        target-repo/build/libs/${{ matrix.owner }}.sha
+                    if-no-files-found: warn
+
+    release:
+        needs: [check, build]
+        if: needs.check.outputs.has_changes == 'true'
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Download newly built JARs 📥
+                uses: actions/download-artifact@v4
+                with:
+                    path: output
+                    merge-multiple: true
+
+            -   name: Download unchanged JARs from previous release 📥
+                run: |
+                    gh release download latest \
+                        --pattern "*.jar" \
+                        --dir output 2>/dev/null || true
+                    gh release download latest \
+                        --pattern "*.sha" \
+                        --dir output 2>/dev/null || true
                 env:
                     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-            -   name: Build changed repos & update JARs 🏗️
+            -   name: Publish single latest release 🌐
                 run: |
-                    REPOS=(
-                        "Kotatsu-Redo/kotatsu-parsers-redo"
-                        "YakaTeam/kotatsu-parsers"
-                        "TamerAli-0/kotatsu-parsers"
-                        "glitch-228/kaisoku-parsers"
-                        "hany18h/kotatsu-parsers"
-                    )
-
-                    for REPO in "${REPOS[@]}"; do
-                        OWNER=$(echo "$REPO" | cut -d'/' -f1)
-                        JAR_NAME="${OWNER}.jar"
-
-                        echo "──────────────────────────────────"
-                        echo "Processing $REPO → $JAR_NAME"
-
-                        # Clone repo
-                        git clone --depth=1 "https://github.com/$REPO.git" target-repo
-
-                        REMOTE_SHA=$(git -C target-repo rev-parse HEAD)
-
-                        # Check SHA stored from last run
-                        SHA_FILE="output/${OWNER}.sha"
-                        if [ -f "$SHA_FILE" ] && [ "$(cat $SHA_FILE)" = "$REMOTE_SHA" ] && [ -f "output/$JAR_NAME" ]; then
-                            echo "✅ $REPO unchanged, reusing existing JAR"
-                        else
-                            echo "🔨 $REPO changed or new, building..."
-                            cd target-repo
-                            ./gradlew assemble --rerun-tasks
-
-                            LIB_PATH="build/libs/kotatsu-parsers.jar"
-                            OUT_PATH="../output/$JAR_NAME"
-
-                            if [ -f "$LIB_PATH" ]; then
-                                d8 --release "$LIB_PATH" --output "$OUT_PATH"
-                            else
-                                FALLBACK=$(find build/libs -name "*.jar" | head -1)
-                                if [ -n "$FALLBACK" ]; then
-                                    d8 --release "$FALLBACK" --output "$OUT_PATH"
-                                else
-                                    echo "⚠️ No JAR found for $REPO, skipping"
-                                fi
-                            fi
-
-                            cd ..
-                            # Save SHA for next run
-                            echo "$REMOTE_SHA" > "$SHA_FILE"
-                        fi
-
-                        rm -rf target-repo
-                    done
-                env:
-                    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-            -   name: Upload all JARs to single latest release 🌐
-                run: |
-                    # Delete and recreate the 'latest' release with all JARs
                     gh release delete latest --yes || true
-                    gh release create latest output/*.jar \
+                    gh release create latest output/*.jar output/*.sha \
                         --title "Latest Build" \
                         --notes "Auto-updated. Contains latest JAR for each parser repo." \
                         --latest
