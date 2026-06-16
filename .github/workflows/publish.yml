@@ -31,14 +31,14 @@ jobs:
 
                     CHANGED=()
 
+                    LATEST_TAG=$(gh release list --limit 1 --json tagName --jq '.[0].tagName' 2>/dev/null || echo "")
+                    if [ -n "$LATEST_TAG" ]; then
+                        gh release download "$LATEST_TAG" --pattern "*.sha" --dir /tmp/shas 2>/dev/null || true
+                    fi
+
                     for REPO in "${REPOS[@]}"; do
                         OWNER=$(echo "$REPO" | cut -d'/' -f1)
                         REMOTE_SHA=$(git ls-remote "https://github.com/$REPO.git" HEAD | cut -f1)
-
-                        # Download last known SHA for this repo
-                        gh release download latest \
-                            --pattern "${OWNER}.sha" \
-                            --dir /tmp/shas 2>/dev/null || true
 
                         SHA_FILE="/tmp/shas/${OWNER}.sha"
                         if [ -f "$SHA_FILE" ] && [ "$(cat $SHA_FILE)" = "$REMOTE_SHA" ]; then
@@ -131,23 +131,26 @@ jobs:
                     path: output
                     merge-multiple: true
 
-            -   name: Download unchanged JARs from previous release 📥
+            -   name: Download latest existing release (for unchanged JARs) 📥
                 run: |
-                    gh release download latest \
-                        --pattern "*.jar" \
-                        --dir output 2>/dev/null || true
-                    gh release download latest \
-                        --pattern "*.sha" \
-                        --dir output 2>/dev/null || true
+                    LATEST_TAG=$(gh release list --limit 1 --json tagName --jq '.[0].tagName' 2>/dev/null || echo "")
+                    if [ -n "$LATEST_TAG" ]; then
+                        gh release download "$LATEST_TAG" --pattern "*.jar" --dir output 2>/dev/null || true
+                        gh release download "$LATEST_TAG" --pattern "*.sha" --dir output 2>/dev/null || true
+                    fi
                 env:
                     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-            -   name: Publish single latest release 🌐
+            -   name: Publish new release 🌐
                 run: |
-                    gh release delete latest --yes || true
-                    gh release create latest output/*.jar output/*.sha \
-                        --title "Latest Build" \
-                        --notes "Auto-updated. Contains latest JAR for each parser repo." \
+                    BUILD_DATE=$(date -u +"%Y.%m.%d-%H%M")
+                    TAG="build-$BUILD_DATE"
+
+                    gh release create "$TAG" output/*.jar output/*.sha \
+                        --title "Build $BUILD_DATE" \
+                        --notes "Updated parser JARs.
+
+Changed this run: ${{ needs.check.outputs.matrix }}" \
                         --latest
                 env:
                     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
