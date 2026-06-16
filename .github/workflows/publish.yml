@@ -164,8 +164,8 @@ jobs:
                         --title "Build $BUILD_DATE" \
                         --notes "Updated parser JARs.
 
-Rebuilt this run:
-$CHANGED_REPOS" \
+                    Rebuilt this run:
+                    $CHANGED_REPOS" \
                         --latest
                 env:
                     GH_TOKEN: ${{ github.token }}
