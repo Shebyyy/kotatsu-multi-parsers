@@ -150,7 +150,7 @@ jobs:
                         --title "Build $BUILD_DATE" \
                         --notes "Updated parser JARs.
 
-Changed this run: ${{ needs.check.outputs.matrix }}" \
-                        --latest
-                env:
-                    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                    Changed this run: ${{ needs.check.outputs.matrix }}" \
+                                            --latest
+                                    env:
+                                        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
