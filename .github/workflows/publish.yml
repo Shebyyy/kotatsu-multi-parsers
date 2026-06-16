@@ -1,0 +1,107 @@
+name: Build & Publish
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: '0 */6 * * *'   # every 6 hours — adjust as needed
+    push:
+        branches:
+            - master
+
+jobs:
+    setup:
+        runs-on: ubuntu-latest
+        outputs:
+            matrix: ${{ steps.set-matrix.outputs.matrix }}
+        steps:
+            -   name: Define repo matrix 📋
+                id: set-matrix
+                run: |
+                    REPOS='[
+                      "Kotatsu-Redo/kotatsu-parsers-redo",
+                      "YakaTeam/kotatsu-parsers",
+                      "TamerAli-0/kotatsu-parsers",
+                      "glitch-228/kaisoku-parsers",
+                      "hany18h/kotatsu-parsers"
+                    ]'
+                    echo "matrix=$(echo $REPOS | jq -c .)" >> $GITHUB_OUTPUT
+
+    publish:
+        needs: setup
+        runs-on: ubuntu-latest
+        strategy:
+            fail-fast: false          # keep other jobs running if one fails
+            matrix:
+                repo: ${{ fromJson(needs.setup.outputs.matrix) }}
+
+        steps:
+            -   name: Checkout THIS workflow repo 🌏
+                uses: actions/checkout@900f2210b1d28bbbd0bd22d17926b9e224e8f231 # v6.0.2
+                with:
+                    fetch-depth: 0
+
+            -   name: Clone target repo 🔁
+                uses: actions/checkout@900f2210b1d28bbbd0bd22d17926b9e224e8f231 # v6.0.2
+                with:
+                    repository: ${{ matrix.repo }}
+                    path: target-repo
+                    token: ${{ secrets.ARTIFACT_REPO_TOKEN }}
+                    fetch-depth: 0
+
+            -   name: Fetch latest commit info 🔖
+                id: meta
+                working-directory: target-repo
+                run: |
+                    SHA=$(git rev-parse --short HEAD)
+                    REPO_NAME=$(echo "${{ matrix.repo }}" | cut -d'/' -f1)
+                    echo "sha_short=$SHA"               >> $GITHUB_OUTPUT
+                    echo "repo_name=$REPO_NAME"         >> $GITHUB_OUTPUT
+                    echo "full_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+            -   name: Set up Java environment 🔧
+                uses: actions/setup-java@b622de1dfa918ecc0ab28f40cd42e3c3752cd6c5 # v5.2.0
+                with:
+                    java-version: '17'
+                    distribution: 'temurin'
+
+            -   name: Set up Gradle environment 📦
+                uses: gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e # v6.1.0
+                with:
+                    gradle-version: '9.3.1'
+
+            -   name: Setup Android SDK 🚀
+                uses: android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699 # v4.0.1
+
+            -   name: Run assemble tasks 🏗️
+                working-directory: target-repo
+                run: ./gradlew assemble --rerun-tasks
+
+            -   name: Process library with d8 🚀
+                working-directory: target-repo
+                env:
+                    LIB_PATH: build/libs/kotatsu-parsers.jar
+                    OUT_PATH: build/libs/${{ steps.meta.outputs.repo_name }}.jar
+                run: |
+                    if [ -f "$LIB_PATH" ]; then
+                        d8 --release "$LIB_PATH" --output "$OUT_PATH"
+                        echo "D8_PATH=$OUT_PATH" >> $GITHUB_ENV
+                    else
+                        echo "ℹ️ Pre-compiled library not found, skipping D8 step..."
+                        FALLBACK=$(find build/libs -name "*.jar" | head -1)
+                        if [ -n "$FALLBACK" ]; then
+                            OUT_FALLBACK="build/libs/${{ steps.meta.outputs.repo_name }}.jar"
+                            d8 --release "$FALLBACK" --output "$OUT_FALLBACK"
+                            echo "D8_PATH=$OUT_FALLBACK" >> $GITHUB_ENV
+                        fi
+                    fi
+                continue-on-error: true
+
+            -   name: Upload artifacts 🌐
+                uses: softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda # v3.0.0
+                with:
+                    tag_name: ${{ steps.meta.outputs.repo_name }}-${{ steps.meta.outputs.sha_short }}
+                    name: ${{ steps.meta.outputs.repo_name }}-${{ steps.meta.outputs.sha_short }}
+                    body: |
+                        Built from [`${{ matrix.repo }}`](https://github.com/${{ matrix.repo }}) @ commit [`${{ steps.meta.outputs.sha_short }}`](https://github.com/${{ matrix.repo }}/commit/${{ steps.meta.outputs.full_sha }})
+                    files: target-repo/${{ env.D8_PATH }}
+                    token: ${{ secrets.GITHUB_TOKEN }}
