@@ -1,5 +1,8 @@
 name: Build & Publish
 
+permissions:
+    contents: write
+
 on:
     workflow_dispatch:
     schedule:
@@ -9,6 +12,9 @@ on:
             - main
 
 jobs:
+    # ─────────────────────────────────────────────
+    # Step 1: check which repos have new commits
+    # ─────────────────────────────────────────────
     check:
         runs-on: ubuntu-latest
         outputs:
@@ -58,8 +64,11 @@ jobs:
                         echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
                     fi
                 env:
-                    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                    GH_TOKEN: ${{ github.token }}
 
+    # ─────────────────────────────────────────────
+    # Step 2: build only changed repos, in parallel
+    # ─────────────────────────────────────────────
     build:
         needs: check
         if: needs.check.outputs.has_changes == 'true'
@@ -117,6 +126,9 @@ jobs:
                         target-repo/build/libs/${{ matrix.owner }}.sha
                     if-no-files-found: warn
 
+    # ─────────────────────────────────────────────
+    # Step 3: merge new JARs with old ones → one release
+    # ─────────────────────────────────────────────
     release:
         needs: [check, build]
         if: needs.check.outputs.has_changes == 'true'
@@ -139,7 +151,7 @@ jobs:
                         gh release download "$LATEST_TAG" --pattern "*.sha" --dir output 2>/dev/null || true
                     fi
                 env:
-                    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                    GH_TOKEN: ${{ github.token }}
 
             -   name: Publish new release 🌐
                 run: |
@@ -149,8 +161,7 @@ jobs:
                     gh release create "$TAG" output/*.jar output/*.sha \
                         --title "Build $BUILD_DATE" \
                         --notes "Updated parser JARs.
-
-                    Changed this run: ${{ needs.check.outputs.matrix }}" \
-                                            --latest
-                                    env:
-                                        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                            Changed this run: ${{ needs.check.outputs.matrix }}" \
+                            --latest
+                            env:
+                            GH_TOKEN: ${{ github.token }}
