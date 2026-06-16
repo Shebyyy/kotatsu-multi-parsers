@@ -1,10 +1,10 @@
 # kotatsu-multi-parsers
 
-Automatically builds and publishes parser JARs from multiple Kotatsu-based repos into a single release.
+Automatically builds and publishes parser JARs from multiple Kotatsu-based repos.
 
 ## Latest Release
 
-Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest)
+Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-multi-parsers/releases)
 
 | Owner | JAR | Source Repo |
 |-------|-----|-------------|
@@ -18,7 +18,7 @@ Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-mu
 
 1. **Check** — every push, manual trigger, or every 6 hours, the workflow checks each repo for new commits
 2. **Build** — only repos with new commits get built (in parallel), others are skipped
-3. **Release** — if anything changed, a new `latest` release is published with all 5 JARs
+3. **Release** — if anything changed, a new release is published with all 5 JARs
 
 > If no repos have new commits, no new release is created.
 
