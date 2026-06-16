@@ -158,10 +158,14 @@ jobs:
                     BUILD_DATE=$(date -u +"%Y.%m.%d-%H%M")
                     TAG="build-$BUILD_DATE"
 
+                    CHANGED_REPOS=$(echo '${{ needs.check.outputs.matrix }}' | jq -r '.include[].repo' | sed 's/^/- /')
+
                     gh release create "$TAG" output/*.jar output/*.sha \
                         --title "Build $BUILD_DATE" \
                         --notes "Updated parser JARs.
-                            Changed this run: ${{ needs.check.outputs.matrix }}" \
-                            --latest
-                            env:
-                            GH_TOKEN: ${{ github.token }}
+
+Rebuilt this run:
+$CHANGED_REPOS" \
+                        --latest
+                env:
+                    GH_TOKEN: ${{ github.token }}
