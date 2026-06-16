@@ -3,12 +3,13 @@ name: Build & Publish
 on:
     workflow_dispatch:
     schedule:
-        - cron: '0 */6 * * *'   # every 6 hours — adjust as needed
+        - cron: '0 */6 * * *'
     push:
         branches:
             - master
 
 jobs:
+
     setup:
         runs-on: ubuntu-latest
         outputs:
@@ -45,7 +46,6 @@ jobs:
                 with:
                     repository: ${{ matrix.repo }}
                     path: target-repo
-                    token: ${{ secrets.ARTIFACT_REPO_TOKEN }}
                     fetch-depth: 0
 
             -   name: Fetch latest commit info 🔖
