@@ -4,7 +4,7 @@ Automatically builds and publishes parser JARs from multiple Kotatsu-based repos
 
 ## Latest Release
 
-Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-multi-parsers/releases)
+Always available at: [Releases](https://github.com/Shebyyy/kotatsu-multi-parsers/releases)
 
 | Owner | JAR | Source Repo |
 |-------|-----|-------------|
