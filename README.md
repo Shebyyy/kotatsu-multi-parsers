@@ -42,24 +42,3 @@ https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/glitch
 ```
 https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/hany18h.jar
 ```
-
-## How It Works
-
-1. **Check** — every push, manual trigger, or every 6 hours, the workflow checks each repo for new commits
-2. **Build** — only repos with new commits get built (in parallel), others are skipped
-3. **Release** — if anything changed, a new release is published with all 5 JARs
-
-> If no repos have new commits, no new release is created.
-
-## Adding a Repo
-
-Edit the `REPOS` list in [`.github/workflows/publish.yml`](.github/workflows/publish.yml) (it appears in both the `check` and `build` jobs):
-
-```yaml
-REPOS=(
-    "owner/repo-name"
-    ...
-)
-```
-
-The JAR will be named `owner.jar` automatically.
