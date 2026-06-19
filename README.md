@@ -15,6 +15,8 @@ Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-mu
 | TamerAli-0 | `TamerAli-0.jar` | [kotatsu-parsers](https://github.com/TamerAli-0/kotatsu-parsers) |
 | glitch-228 | `glitch-228.jar` | [kaisoku-parsers](https://github.com/glitch-228/kaisoku-parsers) |
 | hany18h | `hany18h.jar` | [kotatsu-parsers](https://github.com/hany18h/kotatsu-parsers) |
+| skepsun | `skepsun.jar` | [kotatsu-parsers](https://github.com/skepsun/kototoro-parsers) |
+
 
 ### Latest JAR Direct URLs
 
@@ -41,4 +43,9 @@ https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/glitch
 **hany18h.jar**
 ```
 https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/hany18h.jar
+```
+
+**skepsun.jar**
+```
+https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/skepsun.jar
 ```
