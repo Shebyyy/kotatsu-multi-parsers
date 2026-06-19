@@ -10,12 +10,12 @@ Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-mu
 
 | Owner | JAR | Source Repo |
 |-------|-----|-------------|
-| Kotatsu-Redo | `Kotatsu-Redo.jar` | [kotatsu-parsers-redo](https://github.com/Kotatsu-Redo/kotatsu-parsers-redo) |
-| YakaTeam | `YakaTeam.jar` | [kotatsu-parsers](https://github.com/YakaTeam/kotatsu-parsers) |
-| TamerAli-0 | `TamerAli-0.jar` | [kotatsu-parsers](https://github.com/TamerAli-0/kotatsu-parsers) |
-| glitch-228 | `glitch-228.jar` | [kaisoku-parsers](https://github.com/glitch-228/kaisoku-parsers) |
-| hany18h | `hany18h.jar` | [kotatsu-parsers](https://github.com/hany18h/kotatsu-parsers) |
-| skepsun | `skepsun.jar` | [kotatsu-parsers](https://github.com/skepsun/kototoro-parsers) |
+| Kotatsu-Redo | `Kotatsu-Redo.jar` | [Source](https://github.com/Kotatsu-Redo/kotatsu-parsers-redo) |
+| YakaTeam | `YakaTeam.jar` | [Source](https://github.com/YakaTeam/kotatsu-parsers) |
+| TamerAli-0 | `TamerAli-0.jar` | [Source](https://github.com/TamerAli-0/kotatsu-parsers) |
+| glitch-228 | `glitch-228.jar` | [Source](https://github.com/glitch-228/kaisoku-parsers) |
+| hany18h | `hany18h.jar` | [Source](https://github.com/hany18h/kotatsu-parsers) |
+| skepsun | `skepsun.jar` | [Source](https://github.com/skepsun/kototoro-parsers) |
 
 
 ### Latest JAR Direct URLs
