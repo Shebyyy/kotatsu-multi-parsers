@@ -33,6 +33,7 @@ jobs:
                         "TamerAli-0/kotatsu-parsers"
                         "glitch-228/kaisoku-parsers"
                         "hany18h/kotatsu-parsers"
+                        "skepsun/kototoro-parsers"
                     )
 
                     CHANGED=()
