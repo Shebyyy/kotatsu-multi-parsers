@@ -48,11 +48,16 @@ jobs:
                         REMOTE_SHA=$(git ls-remote "https://github.com/$REPO.git" HEAD | cut -f1)
 
                         SHA_FILE="/tmp/shas/${OWNER}.sha"
-                        if [ -f "$SHA_FILE" ] && [ "$(cat $SHA_FILE)" = "$REMOTE_SHA" ]; then
+                        OLD_SHA=""
+                        if [ -f "$SHA_FILE" ]; then
+                            OLD_SHA=$(cat "$SHA_FILE")
+                        fi
+
+                        if [ -n "$OLD_SHA" ] && [ "$OLD_SHA" = "$REMOTE_SHA" ]; then
                             echo "⏭️  $REPO — no changes, skipping"
                         else
                             echo "✅  $REPO — new commit detected, will build"
-                            CHANGED+=("{\"repo\":\"$REPO\",\"owner\":\"$OWNER\",\"sha\":\"$REMOTE_SHA\"}")
+                            CHANGED+=("{\"repo\":\"$REPO\",\"owner\":\"$OWNER\",\"sha\":\"$REMOTE_SHA\",\"old_sha\":\"$OLD_SHA\"}")
                         fi
                     done
 
@@ -96,6 +101,49 @@ jobs:
             -   name: Clone repo 🔁
                 run: git clone --depth=1 "https://github.com/${{ matrix.repo }}.git" target-repo
 
+            -   name: Generate changelog markdown 📝
+                working-directory: target-repo
+                env:
+                    GH_TOKEN: ${{ github.token }}
+                run: |
+                    OWNER="${{ matrix.owner }}"
+                    REPO="${{ matrix.repo }}"
+                    NEW_SHA="${{ matrix.sha }}"
+                    OLD_SHA="${{ matrix.old_sha }}"
+                    mkdir -p build/libs
+                    OUT_FILE="build/libs/${OWNER}.md"
+
+                    COMMITS=""
+
+                    # Try the compare API first (old_sha..new_sha)
+                    if [ -n "$OLD_SHA" ]; then
+                        COMMITS=$(gh api "repos/${REPO}/compare/${OLD_SHA}...${NEW_SHA}" \
+                            --jq '.commits[:30][] | "- [" + (.sha[0:7]) + "](" + .html_url + ")  " + (.commit.message | split("\n")[0] | sub("\r$"; ""))' \
+                            2>/dev/null || echo "")
+                    fi
+
+                    # Fallback: last 10 commits (first run, force-push, or compare failed)
+                    if [ -z "$COMMITS" ]; then
+                        COMMITS=$(gh api "repos/${REPO}/commits?sha=${NEW_SHA}&per_page=10" \
+                            --jq '.[:10][] | "- [" + (.sha[0:7]) + "](" + .html_url + ")  " + (.commit.message | split("\n")[0] | sub("\r$"; ""))' \
+                            2>/dev/null || echo "")
+                    fi
+
+                    {
+                        echo "## ${REPO}"
+                        echo ""
+                        if [ -n "$COMMITS" ]; then
+                            echo "$COMMITS"
+                        else
+                            echo "- _(could not fetch commit history)_"
+                        fi
+                        echo ""
+                    } > "$OUT_FILE"
+
+                    echo "📄 Changelog preview for ${OWNER}:"
+                    cat "$OUT_FILE"
+                continue-on-error: true
+
             -   name: Run assemble tasks 🏗️
                 working-directory: target-repo
                 run: ./gradlew assemble --rerun-tasks
@@ -125,6 +173,7 @@ jobs:
                     path: |
                         target-repo/build/libs/${{ matrix.owner }}.jar
                         target-repo/build/libs/${{ matrix.owner }}.sha
+                        target-repo/build/libs/${{ matrix.owner }}.md
                     if-no-files-found: warn
 
     # ─────────────────────────────────────────────
@@ -136,7 +185,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -   name: Checkout repo 🌏
-                uses: actions/checkout@900f2210b1d28bbbd0bd22d17926b9e224e8f231 # v6.0.2
+                uses: actions/checkout@900f2210b1d28bbbd22d17926b9e224e8f231 # v6.0.2
 
             -   name: Download newly built JARs 📥
                 uses: actions/download-artifact@v4
@@ -159,14 +208,22 @@ jobs:
                     BUILD_DATE=$(date -u +"%Y.%m.%d-%H%M")
                     TAG="build-$BUILD_DATE"
 
-                    CHANGED_REPOS=$(echo '${{ needs.check.outputs.matrix }}' | jq -r '.include[].repo' | sed 's/^/- /')
+                    # Assemble changelog from all .md files (sorted alphabetically by owner)
+                    {
+                        echo "Updated parser JARs."
+                        echo ""
+                        for MD_FILE in output/*.md; do
+                            [ -f "$MD_FILE" ] || continue
+                            cat "$MD_FILE"
+                        done
+                    } > /tmp/release_notes.md
+
+                    echo "📝 Final release notes:"
+                    cat /tmp/release_notes.md
 
                     gh release create "$TAG" output/*.jar output/*.sha \
                         --title "Build $BUILD_DATE" \
-                        --notes "Updated parser JARs.
-
-                    Rebuilt this run:
-                    $CHANGED_REPOS" \
+                        --notes-file /tmp/release_notes.md \
                         --latest
                 env:
                     GH_TOKEN: ${{ github.token }}
