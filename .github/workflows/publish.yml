@@ -5,6 +5,12 @@ permissions:
 
 on:
     workflow_dispatch:
+        inputs:
+            force_build:
+                description: 'Force build all repos (skip commit check)'
+                required: false
+                type: boolean
+                default: false
     schedule:
         - cron: '0 */6 * * *'
     push:
@@ -61,7 +67,17 @@ jobs:
                         fi
                     done
 
-                    if [ ${#CHANGED[@]} -eq 0 ]; then
+                    if [ "${{ inputs.force_build }}" = "true" ]; then
+                        for REPO in "${REPOS[@]}"; do
+                            OWNER=$(echo "$REPO" | cut -d'/' -f1)
+                            REMOTE_SHA=$(git ls-remote "https://github.com/$REPO.git" HEAD | cut -f1)
+                            CHANGED+=("{\"repo\":\"$REPO\",\"owner\":\"$OWNER\",\"sha\":\"$REMOTE_SHA\",\"old_sha\":\"\"}")
+                        done
+                        MATRIX=$(printf '%s\n' "${CHANGED[@]}" | jq -sc '{include: .}')
+                        echo "has_changes=true" >> $GITHUB_OUTPUT
+                        echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+                        echo "🔥 Force build — all repos"
+                    elif [ ${#CHANGED[@]} -eq 0 ]; then
                         echo "has_changes=false" >> $GITHUB_OUTPUT
                         echo "matrix={\"include\":[]}" >> $GITHUB_OUTPUT
                     else
