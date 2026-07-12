@@ -166,6 +166,70 @@ jobs:
                     echo "${{ matrix.sha }}" > "build/libs/${OWNER}.sha"
                 continue-on-error: true
 
+            -   name: Extract parser metadata 📋
+                working-directory: target-repo
+                run: |
+                    python3 - "$PWD" "${{ matrix.owner }}" "${{ matrix.repo }}" << 'PYEOF'
+                    import re, json, sys, glob
+
+                    src_dir = sys.argv[1]
+                    owner = sys.argv[2]
+                    repo = sys.argv[3]
+                    results = []
+
+                    for filepath in glob.glob(f"{src_dir}/src/**/*.kt", recursive=True):
+                        with open(filepath) as f:
+                            content = f.read()
+
+                        match = re.search(
+                            r'@MangaSourceParser\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*"([^"]*)"(?:\s*,\s*ContentType\.(\w+))?\s*\)',
+                            content
+                        )
+                        if not match:
+                            continue
+
+                        name, title, lang, content_type = match.groups()
+                        content_type = content_type or "MANGA"
+                        nsfw = 1 if content_type == "HENTAI" else 0
+                        is_broken = bool(re.search(r'@Broken', content))
+
+                        domain = ""
+
+                        dm = re.search(r'ConfigKey\.Domain\(\s*"([^"]+)"\s*\)', content)
+                        if dm:
+                            domain = dm.group(1)
+
+                        if not domain:
+                            dm = re.search(
+                                r'(?:Parser|Cms|HeanCms|OneMangaParser|NatsuParser|MadaraParser|MadThemeParser|GuyaParser|Manga18Parser|FoolSlideParser|GattsuParser|LilianaParser|KeyoAppParser|HotComicsParser|IkenParser|InitMangaParser|LikemangaParser|FuzzyDoodleParser|ComicasoParser|CupfoxParser|GalleryParser|GalleryAdultsParser|FmreaderParser|MangaBoxParser|AllMangaParser|BatCaveParser|BeeToonParser)\(.*?MangaParserSource\.\w+,\s*"([^"]+)"',
+                                content,
+                                re.DOTALL
+                            )
+                            if dm:
+                                domain = dm.group(1)
+
+                        base_url = f"https://{domain}" if domain else ""
+                        icon_url = f"https://www.google.com/s2/favicons?domain={domain}&sz=64" if domain else ""
+
+                        results.append({
+                            "name": name,
+                            "title": title,
+                            "lang": lang,
+                            "contentType": content_type,
+                            "nsfw": nsfw,
+                            "isBroken": is_broken,
+                            "baseUrl": base_url,
+                            "iconUrl": icon_url
+                        })
+
+                    results.sort(key=lambda x: x["name"])
+                    out_path = f"build/libs/{owner}.json"
+                    with open(out_path, "w") as f:
+                        json.dump(results, f, ensure_ascii=False, indent=2)
+                    print(f"✅ Extracted {len(results)} parsers → {out_path}")
+                    PYEOF
+                continue-on-error: true
+
             -   name: Upload as workflow artifact 📦
                 uses: actions/upload-artifact@v4
                 with:
@@ -174,6 +238,7 @@ jobs:
                         target-repo/build/libs/${{ matrix.owner }}.jar
                         target-repo/build/libs/${{ matrix.owner }}.sha
                         target-repo/build/libs/${{ matrix.owner }}.md
+                        target-repo/build/libs/${{ matrix.owner }}.json
                     if-no-files-found: warn
 
     # ─────────────────────────────────────────────
@@ -227,3 +292,44 @@ jobs:
                         --latest
                 env:
                     GH_TOKEN: ${{ github.token }}
+
+    # ─────────────────────────────────────────────
+    # Step 4: commit index JSON files to repo
+    # ─────────────────────────────────────────────
+    commit-index:
+        needs: [check, build]
+        if: needs.check.outputs.has_changes == 'true'
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Checkout repo 🌏
+                uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+                with:
+                    token: ${{ secrets.GITHUB_TOKEN }}
+
+            -   name: Download index files 📥
+                uses: actions/download-artifact@v4
+                with:
+                    path: output
+                    merge-multiple: true
+
+            -   name: Commit index files 📋
+                run: |
+                    mkdir -p index
+                    UPDATED=0
+                    for JSON_FILE in output/*.json; do
+                        [ -f "$JSON_FILE" ] || continue
+                        BASENAME=$(basename "$JSON_FILE")
+                        cp "$JSON_FILE" "index/${BASENAME}"
+                        UPDATED=$((UPDATED + 1))
+                    done
+
+                    if [ "$UPDATED" -eq 0 ]; then
+                        echo "⚠️ No index files found, skipping commit"
+                        exit 0
+                    fi
+
+                    git config user.name "github-actions[bot]"
+                    git config user.email "github-actions[bot]@users.noreply.github.com"
+                    git add index/
+                    git diff --cached --quiet || git commit -m "update index — ${UPDATED} file(s) $(date -u +%Y.%m.%d-%H%M)"
+                    git push
