@@ -1,0 +1,302 @@
+[
+  {
+    "name": "ANYONEMANGA",
+    "title": "AnyoneManga",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://anyonemanga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=anyonemanga.com&sz=64"
+  },
+  {
+    "name": "ASQORG",
+    "title": "3Asq",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://3asq.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=3asq.org&sz=64"
+  },
+  {
+    "name": "ASURASCANS",
+    "title": "AsuraComic",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://asurascans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=asurascans.com&sz=64"
+  },
+  {
+    "name": "AZORAMOON",
+    "title": "Azoramoon",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://azoramoon.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=azoramoon.com&sz=64"
+  },
+  {
+    "name": "CENELE",
+    "title": "فضاء الروايات",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://cenele.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=cenele.com&sz=64"
+  },
+  {
+    "name": "DESPAIRMANGA",
+    "title": "Despair Manga",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://despair-manga.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=despair-manga.net&sz=64"
+  },
+  {
+    "name": "DILARTUBE",
+    "title": "Dilar Tube",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://v2.dilar.tube",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v2.dilar.tube&sz=64"
+  },
+  {
+    "name": "ESHADOW",
+    "title": "Eshadow",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://eshadow.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=eshadow.net&sz=64"
+  },
+  {
+    "name": "HIJALACOM",
+    "title": "Hijalacom",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://hijala.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hijala.com&sz=64"
+  },
+  {
+    "name": "KOLNOVEL",
+    "title": "KolNovel",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://free.kolnovel.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=free.kolnovel.com&sz=64"
+  },
+  {
+    "name": "LAVATOONS",
+    "title": "Lavatoons",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://lavascans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=lavascans.com&sz=64"
+  },
+  {
+    "name": "MANGAAILAND",
+    "title": "MangaAiLand",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://manga-ai-land.blogspot.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manga-ai-land.blogspot.com&sz=64"
+  },
+  {
+    "name": "MANGAATREND",
+    "title": "MangaAtrend",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://mangaatrend.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangaatrend.net&sz=64"
+  },
+  {
+    "name": "MANGALEK",
+    "title": "LekManga",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://lekmanga.site",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=lekmanga.site&sz=64"
+  },
+  {
+    "name": "MANGAMELLO",
+    "title": "Manga Mello",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://plus.mangamello.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=plus.mangamello.com&sz=64"
+  },
+  {
+    "name": "MANGASTARZ",
+    "title": "Manga-Starz",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://manga-starz.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manga-starz.net&sz=64"
+  },
+  {
+    "name": "MANGASWAT",
+    "title": "Manga Swat",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://meshmanga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=meshmanga.com&sz=64"
+  },
+  {
+    "name": "MANGATEK",
+    "title": "MangaTek",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://mangatek.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangatek.com&sz=64"
+  },
+  {
+    "name": "MANHATOK",
+    "title": "ManhaTok",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://manhatok.blogspot.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhatok.blogspot.com&sz=64"
+  },
+  {
+    "name": "MANHUAUS",
+    "title": "ManhuaUs",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://manhuaus.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhuaus.com&sz=64"
+  },
+  {
+    "name": "MANHWACLAN",
+    "title": "ManhwaClan",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://manhwaclan.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaclan.com&sz=64"
+  },
+  {
+    "name": "MURIM",
+    "title": "Murim",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://www.murim.site",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.murim.site&sz=64"
+  },
+  {
+    "name": "ONMA",
+    "title": "Onma",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://onma.me",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=onma.me&sz=64"
+  },
+  {
+    "name": "PROCHAN",
+    "title": "ProChan",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://procomic.pro",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=procomic.pro&sz=64"
+  },
+  {
+    "name": "REWAYAT",
+    "title": "نادي الروايات",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://rewayat.club",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=rewayat.club&sz=64"
+  },
+  {
+    "name": "ROCKSMANGA",
+    "title": "RocksManga",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://rocksmanga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=rocksmanga.com&sz=64"
+  },
+  {
+    "name": "STELLARSABER",
+    "title": "StellarSaber",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://stellarsaber.pro",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=stellarsaber.pro&sz=64"
+  },
+  {
+    "name": "TEAMXNOVEL",
+    "title": "TeamXNovel",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://olympustaff.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=olympustaff.com&sz=64"
+  },
+  {
+    "name": "UMIMANGA",
+    "title": "UmiManga",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://www.umimanga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.umimanga.com&sz=64"
+  },
+  {
+    "name": "XSANOMANGA",
+    "title": "XsanoManga",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://www.xsano-manga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.xsano-manga.com&sz=64"
+  }
+]
