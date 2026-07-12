@@ -205,7 +205,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://anime-sama.eu",
     "iconUrl": "https://www.google.com/s2/favicons?domain=anime-sama.eu&sz=64"
   },
@@ -1651,13 +1651,13 @@
   },
   {
     "name": "DOUJINDESU",
-    "title": "DoujinDesu.tv",
+    "title": "DoujinDesu",
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://doujindesu.tv",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=doujindesu.tv&sz=64"
+    "baseUrl": "",
+    "iconUrl": ""
   },
   {
     "name": "DOUJINDESURIP",
@@ -1668,6 +1668,16 @@
     "isBroken": false,
     "baseUrl": "https://doujindesu.asia",
     "iconUrl": "https://www.google.com/s2/favicons?domain=doujindesu.asia&sz=64"
+  },
+  {
+    "name": "DOUJINDESU_MANHWA",
+    "title": "DoujinDesu Manhwa",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "",
+    "iconUrl": ""
   },
   {
     "name": "DOUJINKU",
@@ -2876,8 +2886,8 @@
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://hentai-origines.fr",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=hentai-origines.fr&sz=64"
+    "baseUrl": "https://hentai-origines.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hentai-origines.com&sz=64"
   },
   {
     "name": "HENTAIREADER",
@@ -3256,8 +3266,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://01.hwago.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=01.hwago.xyz&sz=64"
+    "baseUrl": "https://02.hwago.xyz",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=02.hwago.xyz&sz=64"
   },
   {
     "name": "HYPERIONSCANS",
@@ -3286,8 +3296,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://05.ikiru.wtf",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=05.ikiru.wtf&sz=64"
+    "baseUrl": "https://06.ikiru.wtf",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=06.ikiru.wtf&sz=64"
   },
   {
     "name": "ILLUSIONSCAN",
@@ -3706,8 +3716,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://v5.kiryuu.to",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v5.kiryuu.to&sz=64"
+    "baseUrl": "https://v6.kiryuu.to",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v6.kiryuu.to&sz=64"
   },
   {
     "name": "KISHISAN",
@@ -5211,7 +5221,7 @@
   },
   {
     "name": "MANGAFIRE_EN",
-    "title": "MangaFire English",
+    "title": "MangaFire (English)",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -6996,8 +7006,8 @@
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://manhwadesu.asia",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwadesu.asia&sz=64"
+    "baseUrl": "https://manhwadesu.im",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwadesu.im&sz=64"
   },
   {
     "name": "MANHWAFREAKE",
@@ -8535,7 +8545,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://perf-scan.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=perf-scan.xyz&sz=64"
   },
@@ -9315,7 +9325,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://rimuscans.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=rimuscans.com&sz=64"
   },
