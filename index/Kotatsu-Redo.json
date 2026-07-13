@@ -671,13 +671,13 @@
   },
   {
     "name": "AZORAMOON",
-    "title": "Azoramoon",
+    "title": "Azorafly",
     "lang": "ar",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://azoramoon.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=azoramoon.com&sz=64"
+    "baseUrl": "https://azorafly.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=azorafly.com&sz=64"
   },
   {
     "name": "BABELWUXIA",
@@ -2445,7 +2445,7 @@
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://geasscomics.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=geasscomics.xyz&sz=64"
   },
@@ -11945,7 +11945,7 @@
     "lang": "id",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://yurilabs.my.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=yurilabs.my.id&sz=64"
   },
