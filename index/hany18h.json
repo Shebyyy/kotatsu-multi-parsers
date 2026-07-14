@@ -70,16 +70,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=v2.dilar.tube&sz=64"
   },
   {
-    "name": "ESHADOW",
-    "title": "Eshadow",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://eshadow.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=eshadow.net&sz=64"
-  },
-  {
     "name": "HIJALACOM",
     "title": "Hijalacom",
     "lang": "ar",
@@ -118,16 +108,6 @@
     "isBroken": false,
     "baseUrl": "https://manga-ai-land.blogspot.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga-ai-land.blogspot.com&sz=64"
-  },
-  {
-    "name": "MANGAATREND",
-    "title": "MangaAtrend",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangaatrend.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangaatrend.net&sz=64"
   },
   {
     "name": "MANGALEK",
@@ -210,16 +190,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaclan.com&sz=64"
   },
   {
-    "name": "MURIM",
-    "title": "Murim",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://www.murim.site",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.murim.site&sz=64"
-  },
-  {
     "name": "ONMA",
     "title": "Onma",
     "lang": "ar",
@@ -258,16 +228,6 @@
     "isBroken": false,
     "baseUrl": "https://rocksmanga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=rocksmanga.com&sz=64"
-  },
-  {
-    "name": "STELLARSABER",
-    "title": "StellarSaber",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://stellarsaber.pro",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=stellarsaber.pro&sz=64"
   },
   {
     "name": "TEAMXNOVEL",
