@@ -1,5 +1,15 @@
 [
   {
+    "name": "ANIME_RISTO",
+    "title": "RistoAnime",
+    "lang": "ar",
+    "contentType": "ANIME",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://ristoanime.me",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ristoanime.me&sz=64"
+  },
+  {
     "name": "ANYONEMANGA",
     "title": "AnyoneManga",
     "lang": "ar",
@@ -228,6 +238,16 @@
     "isBroken": false,
     "baseUrl": "https://rocksmanga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=rocksmanga.com&sz=64"
+  },
+  {
+    "name": "SUNOVELS",
+    "title": "شمس الروايات",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://sunovels.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=sunovels.com&sz=64"
   },
   {
     "name": "TEAMXNOVEL",
