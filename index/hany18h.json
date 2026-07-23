@@ -26,8 +26,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://3asq.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=3asq.org&sz=64"
+    "baseUrl": "https://3asq.online",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=3asq.online&sz=64"
   },
   {
     "name": "ASURASCANS",
@@ -118,6 +118,16 @@
     "isBroken": false,
     "baseUrl": "https://manga-ai-land.blogspot.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga-ai-land.blogspot.com&sz=64"
+  },
+  {
+    "name": "MANGADAR",
+    "title": "MangaDar",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://mangadar.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangadar.com&sz=64"
   },
   {
     "name": "MANGALEK",
