@@ -20,6 +20,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=ristoanime.me&sz=64"
   },
   {
+    "name": "ANIME_WITCHER",
+    "title": "AnimeWitcher",
+    "lang": "ar",
+    "contentType": "ANIME",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://www.animewitcher.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.animewitcher.com&sz=64"
+  },
+  {
     "name": "ANYONEMANGA",
     "title": "AnyoneManga",
     "lang": "ar",
