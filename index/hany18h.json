@@ -20,6 +20,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=ristoanime.me&sz=64"
   },
   {
+    "name": "ANIME_SLAYER",
+    "title": "Anime Slayer",
+    "lang": "ar",
+    "contentType": "ANIME",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://anslayer.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=anslayer.com&sz=64"
+  },
+  {
     "name": "ANIME_WITCHER",
     "title": "AnimeWitcher",
     "lang": "ar",
@@ -160,8 +170,8 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=lekmanga.site&sz=64"
   },
   {
-    "name": "MANGAMELLO",
-    "title": "Manga Mello",
+    "name": "MANGAMELLO_PLUS",
+    "title": "MangaMello Plus",
     "lang": "ar",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -228,6 +238,16 @@
     "isBroken": false,
     "baseUrl": "https://manhwaclan.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaclan.com&sz=64"
+  },
+  {
+    "name": "MARKAZ_RIWAYAT",
+    "title": "مركز الروايات",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://markazriwayat.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=markazriwayat.com&sz=64"
   },
   {
     "name": "ONMA",

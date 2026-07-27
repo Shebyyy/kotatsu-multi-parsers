@@ -2025,9 +2025,9 @@
     "lang": "fr",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://beta.epsilonscan.to",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=beta.epsilonscan.to&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://epsilonscan.to",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=epsilonscan.to&sz=64"
   },
   {
     "name": "EPSILONSOFT",
@@ -2035,9 +2035,9 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://beta.epsilonsoft.to",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=beta.epsilonsoft.to&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://epsilonsoft.to",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=epsilonsoft.to&sz=64"
   },
   {
     "name": "ERO18X",
@@ -2061,13 +2061,13 @@
   },
   {
     "name": "EROSSCANS",
-    "title": "ErosScans",
+    "title": "Scythe Scans",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://erosxscans.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=erosxscans.xyz&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://scythescans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=scythescans.com&sz=64"
   },
   {
     "name": "ESOMANGA",
