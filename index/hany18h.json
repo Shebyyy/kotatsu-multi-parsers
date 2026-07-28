@@ -46,8 +46,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://anyonemanga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=anyonemanga.com&sz=64"
+    "baseUrl": "",
+    "iconUrl": ""
   },
   {
     "name": "ASQORG",
@@ -118,6 +118,16 @@
     "isBroken": false,
     "baseUrl": "https://hijala.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=hijala.com&sz=64"
+  },
+  {
+    "name": "HIZOMANGA",
+    "title": "Hizo Manga",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://hizomanga.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hizomanga.net&sz=64"
   },
   {
     "name": "KOLNOVEL",
