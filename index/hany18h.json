@@ -10,6 +10,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=anime3rb.com&sz=64"
   },
   {
+    "name": "ANIME_PHOENIX",
+    "title": "Anime Phoenix",
+    "lang": "ar",
+    "contentType": "ANIME",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://anime-phoenix.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=anime-phoenix.com&sz=64"
+  },
+  {
     "name": "ANIME_RISTO",
     "title": "RistoAnime",
     "lang": "ar",
@@ -298,6 +308,16 @@
     "isBroken": false,
     "baseUrl": "https://rocksmanga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=rocksmanga.com&sz=64"
+  },
+  {
+    "name": "SEANOVEL",
+    "title": "بحر الروايات",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://seanovel.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=seanovel.org&sz=64"
   },
   {
     "name": "SUNOVELS",
