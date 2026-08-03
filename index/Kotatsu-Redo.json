@@ -1326,8 +1326,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://lc1.cosmicscans.to",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=lc1.cosmicscans.to&sz=64"
+    "baseUrl": "",
+    "iconUrl": ""
   },
   {
     "name": "CREEPYSCANS",
@@ -4766,8 +4766,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://empreguetes.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=empreguetes.xyz&sz=64"
+    "baseUrl": "",
+    "iconUrl": ""
   },
   {
     "name": "MAIDSECRET",
@@ -9016,8 +9016,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://ravenscans.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ravenscans.org&sz=64"
+    "baseUrl": "https://ravenscans.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ravenscans.net&sz=64"
   },
   {
     "name": "RAW1001",
