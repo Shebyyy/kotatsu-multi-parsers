@@ -5985,9 +5985,9 @@
     "lang": "ar",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://manga-spark.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manga-spark.com&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://sparkmanga.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=sparkmanga.net&sz=64"
   },
   {
     "name": "MANGASSCANS",
