@@ -175,7 +175,7 @@
     "lang": "tr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://anikiga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=anikiga.com&sz=64"
   },
@@ -1705,7 +1705,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://drakecomic.org",
     "iconUrl": "https://www.google.com/s2/favicons?domain=drakecomic.org&sz=64"
   },
@@ -4365,7 +4365,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://luacomic.org",
     "iconUrl": "https://www.google.com/s2/favicons?domain=luacomic.org&sz=64"
   },
