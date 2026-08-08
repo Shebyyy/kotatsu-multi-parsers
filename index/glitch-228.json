@@ -195,7 +195,7 @@
     "lang": "tr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://anikiga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=anikiga.com&sz=64"
   },
@@ -1666,8 +1666,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://doctruyen3qui15.pro",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=doctruyen3qui15.pro&sz=64"
+    "baseUrl": "https://doctruyen3qhub3.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=doctruyen3qhub3.com&sz=64"
   },
   {
     "name": "DOCTRUYEN5S",
@@ -1805,7 +1805,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://drakecomic.org",
     "iconUrl": "https://www.google.com/s2/favicons?domain=drakecomic.org&sz=64"
   },
@@ -4656,8 +4656,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://luacomic.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=luacomic.com&sz=64"
+    "baseUrl": "https://luacomic.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=luacomic.org&sz=64"
   },
   {
     "name": "LUFFYMANGA",
@@ -4756,8 +4756,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://luottruyen6.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=luottruyen6.com&sz=64"
+    "baseUrl": "https://luottruyen15.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=luottruyen15.com&sz=64"
   },
   {
     "name": "LUPITEAM",
@@ -4846,8 +4846,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://empreguetes.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=empreguetes.xyz&sz=64"
+    "baseUrl": "",
+    "iconUrl": ""
   },
   {
     "name": "MAIDSECRET",
@@ -6375,9 +6375,9 @@
     "lang": "ar",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://manga-spark.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manga-spark.com&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://sparkmanga.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=sparkmanga.net&sz=64"
   },
   {
     "name": "MANGASSCANS",
@@ -11066,8 +11066,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://www.toptruyenssi.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.toptruyenssi.com&sz=64"
+    "baseUrl": "https://www.toptruyenzone9.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.toptruyenzone9.com&sz=64"
   },
   {
     "name": "TORTUGACEVIRI",
