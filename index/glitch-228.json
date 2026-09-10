@@ -11225,7 +11225,7 @@
     "lang": "vi",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://truyenqqgo.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=truyenqqgo.com&sz=64"
   },
