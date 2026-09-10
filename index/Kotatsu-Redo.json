@@ -101,13 +101,13 @@
   },
   {
     "name": "ALLMANGA",
-    "title": "AllManga",
+    "title": "Mkissa",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://allmanga.to",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=allmanga.to&sz=64"
+    "baseUrl": "https://mkissa.to",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mkissa.to&sz=64"
   },
   {
     "name": "ALLPORN_COMIC",
@@ -1120,6 +1120,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=chainsawman-scan.com&sz=64"
   },
   {
+    "name": "CHIKARI",
+    "title": "Chikari",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://chikari.moe",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=chikari.moe&sz=64"
+  },
+  {
     "name": "CLONEMANGA",
     "title": "CloneManga",
     "lang": "en",
@@ -1226,8 +1236,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://comicazen.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=comicazen.com&sz=64"
+    "baseUrl": "",
+    "iconUrl": ""
   },
   {
     "name": "COMICEXTRA",
@@ -1556,8 +1566,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://desu.uno",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=desu.uno&sz=64"
   },
   {
     "name": "DEXHENTAI",
@@ -2445,7 +2455,7 @@
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://geasscomics.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=geasscomics.xyz&sz=64"
   },
@@ -2885,7 +2895,7 @@
     "lang": "fr",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://hentai-origines.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=hentai-origines.com&sz=64"
   },
@@ -3828,16 +3838,6 @@
     "isBroken": true,
     "baseUrl": "https://komikav.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=komikav.net&sz=64"
-  },
-  {
-    "name": "KOMIKCAST",
-    "title": "KomikCast",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://be.komikcast.cc",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=be.komikcast.cc&sz=64"
   },
   {
     "name": "KOMIKDEWASA",
@@ -6600,6 +6600,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangayaro.id&sz=64"
   },
   {
+    "name": "MANGAYY",
+    "title": "MangaYY",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": true,
+    "baseUrl": "https://mangayy.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangayy.org&sz=64"
+  },
+  {
     "name": "MANGAZAVR",
     "title": "Mangazavr",
     "lang": "ru",
@@ -7465,7 +7475,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://id.mgkomik.cc",
     "iconUrl": "https://www.google.com/s2/favicons?domain=id.mgkomik.cc&sz=64"
   },
@@ -8360,6 +8370,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=onepunchmanscan.com&sz=64"
   },
   {
+    "name": "ONISAGA_EN",
+    "title": "OniSaga (English)",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://onisaga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=onisaga.com&sz=64"
+  },
+  {
     "name": "ONLYMANHWA",
     "title": "OnlyManhwa",
     "lang": "en",
@@ -9016,8 +9036,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://ravenscans.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ravenscans.net&sz=64"
+    "baseUrl": "https://ravenscans.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ravenscans.org&sz=64"
   },
   {
     "name": "RAW1001",
@@ -9326,8 +9346,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": true,
-    "baseUrl": "https://rimuscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=rimuscans.com&sz=64"
+    "baseUrl": "https://rimuscan.fr",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=rimuscan.fr&sz=64"
   },
   {
     "name": "RINKOCOMICS",
@@ -9448,6 +9468,16 @@
     "isBroken": false,
     "baseUrl": "https://ruyamanga.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=ruyamanga.net&sz=64"
+  },
+  {
+    "name": "RYUKOMIK",
+    "title": "Ryukomik",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://ryukomik.my.id",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ryukomik.my.id&sz=64"
   },
   {
     "name": "RYZUKOMIK",
@@ -10156,8 +10186,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://soulscans.my.id",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=soulscans.my.id&sz=64"
+    "baseUrl": "https://v1.soulscans.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v1.soulscans.org&sz=64"
   },
   {
     "name": "SPIDERSCANS",
@@ -11340,6 +11370,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=voidscans.co&sz=64"
   },
   {
+    "name": "VORATOON",
+    "title": "Voratoon",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "",
+    "iconUrl": ""
+  },
+  {
     "name": "VORTEXSCANS",
     "title": "VortexScans",
     "lang": "en",
@@ -12011,13 +12051,13 @@
   },
   {
     "name": "ZENMANGA",
-    "title": "ZenManga",
+    "title": "InkStory",
     "lang": "ru",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://inkstory.me",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=inkstory.me&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://inkstory.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=inkstory.net&sz=64"
   },
   {
     "name": "ZEVEP",

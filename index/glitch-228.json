@@ -591,7 +591,7 @@
   },
   {
     "name": "ASURASCANS",
-    "title": "AsuraScans",
+    "title": "Asura Scans",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -728,6 +728,16 @@
     "isBroken": false,
     "baseUrl": "https://bacakomik.my",
     "iconUrl": "https://www.google.com/s2/favicons?domain=bacakomik.my&sz=64"
+  },
+  {
+    "name": "BACAMI",
+    "title": "Bacami",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://v1.bacami.site",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v1.bacami.site&sz=64"
   },
   {
     "name": "BAKAMAN",
@@ -1158,6 +1168,16 @@
     "isBroken": false,
     "baseUrl": "https://chainsawman-scan.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=chainsawman-scan.com&sz=64"
+  },
+  {
+    "name": "CHIKARI",
+    "title": "Chikari",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://chikari.moe",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=chikari.moe&sz=64"
   },
   {
     "name": "CLONEMANGA",
@@ -2475,7 +2495,7 @@
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://geasscomics.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=geasscomics.xyz&sz=64"
   },
@@ -2921,7 +2941,7 @@
   },
   {
     "name": "HENTAIORIGINES",
-    "title": "Hentai Origines",
+    "title": "HentaiOrigines",
     "lang": "fr",
     "contentType": "HENTAI",
     "nsfw": 1,
@@ -3698,6 +3718,16 @@
     "isBroken": true,
     "baseUrl": "https://katakomik.my.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=katakomik.my.id&sz=64"
+  },
+  {
+    "name": "KAWIIMANGA",
+    "title": "Kawaii Manga",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://kawaiimanga.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=kawaiimanga.org&sz=64"
   },
   {
     "name": "KDTSCANS",
@@ -7615,7 +7645,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://id.mgkomik.cc",
     "iconUrl": "https://www.google.com/s2/favicons?domain=id.mgkomik.cc&sz=64"
   },
@@ -8508,6 +8538,16 @@
     "isBroken": false,
     "baseUrl": "https://onepunchmanscan.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=onepunchmanscan.com&sz=64"
+  },
+  {
+    "name": "ONISAGA_EN",
+    "title": "OniSaga (English)",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://onisaga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=onisaga.com&sz=64"
   },
   {
     "name": "ONLYMANHWA",
@@ -9475,9 +9515,9 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://rimuscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=rimuscans.com&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://rimuscan.fr",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=rimuscan.fr&sz=64"
   },
   {
     "name": "RINKOCOMICS",
@@ -9608,6 +9648,16 @@
     "isBroken": false,
     "baseUrl": "https://ruyamanga.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=ruyamanga.net&sz=64"
+  },
+  {
+    "name": "RYUKOMIK",
+    "title": "Ryukomik",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://ryukomik.my.id",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ryukomik.my.id&sz=64"
   },
   {
     "name": "RYZUKOMIK",
@@ -10316,8 +10366,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://soulscans.my.id",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=soulscans.my.id&sz=64"
+    "baseUrl": "https://v1.soulscans.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v1.soulscans.org&sz=64"
   },
   {
     "name": "SPIDERSCANS",
@@ -11540,6 +11590,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=voidscans.co&sz=64"
   },
   {
+    "name": "VORATOON",
+    "title": "Voratoon",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "",
+    "iconUrl": ""
+  },
+  {
     "name": "VORTEXSCANS",
     "title": "VortexScans",
     "lang": "en",
@@ -12226,8 +12286,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": true,
-    "baseUrl": "https://inkstory.me",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=inkstory.me&sz=64"
+    "baseUrl": "https://inkstory.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=inkstory.net&sz=64"
   },
   {
     "name": "ZEVEP",

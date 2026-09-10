@@ -1,5 +1,15 @@
 [
   {
+    "name": "ALHILALLIBRARY",
+    "title": "مكتبة الهلال",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "",
+    "iconUrl": ""
+  },
+  {
     "name": "ANIME3RB",
     "title": "Anime3rb",
     "lang": "ar",
@@ -116,8 +126,18 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://v2.dilar.tube",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v2.dilar.tube&sz=64"
+    "baseUrl": "https://dilar.tube",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=dilar.tube&sz=64"
+  },
+  {
+    "name": "GALAXYNOVELS",
+    "title": "مجرة الروايات",
+    "lang": "ar",
+    "contentType": "NOVEL",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://galaxynovels.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=galaxynovels.com&sz=64"
   },
   {
     "name": "HIJALACOM",
@@ -140,14 +160,24 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=hizomanga.net&sz=64"
   },
   {
+    "name": "KAWAIIMANGA",
+    "title": "كواي مانجا",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://kawaiimanga.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=kawaiimanga.org&sz=64"
+  },
+  {
     "name": "KOLNOVEL",
     "title": "KolNovel",
     "lang": "ar",
     "contentType": "NOVEL",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://free.kolnovel.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=free.kolnovel.com&sz=64"
+    "baseUrl": "https://kolnovel.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=kolnovel.com&sz=64"
   },
   {
     "name": "LAVATOONS",
