@@ -39,6 +39,7 @@ jobs:
                         "glitch-228/kaisoku-parsers"
                         "hany18h/kotatsu-parsers"
                         "skepsun/kototoro-parsers"
+                        "Gekkoushi/plugin-source"
                     )
 
                     CHANGED=()
