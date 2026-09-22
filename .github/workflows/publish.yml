@@ -35,7 +35,6 @@ jobs:
                 run: |
                     REPOS=(
                         "Kotatsu-Redo/kotatsu-parsers-redo"
-                        "YakaTeam/kotatsu-parsers"
                         "glitch-228/kaisoku-parsers"
                         "hany18h/kotatsu-parsers"
                         "skepsun/kototoro-parsers"
