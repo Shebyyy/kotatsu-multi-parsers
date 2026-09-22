@@ -11,7 +11,6 @@ Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-mu
 | Owner | JAR | Source Repo |
 |-------|-----|-------------|
 | Kotatsu-Redo | `Kotatsu-Redo.jar` | [Source](https://github.com/Kotatsu-Redo/kotatsu-parsers-redo) |
-| YakaTeam | `YakaTeam.jar` | [Source](https://github.com/YakaTeam/kotatsu-parsers) |
 | Gekkoushi | `Gekkoushi.jar` | [Source](https://github.com/Gekkoushi/plugin-source) |
 | glitch-228 | `glitch-228.jar` | [Source](https://github.com/glitch-228/kaisoku-parsers) |
 | hany18h | `hany18h.jar` | [Source](https://github.com/hany18h/kotatsu-parsers) |
@@ -23,11 +22,6 @@ Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-mu
 **Kotatsu-Redo.jar**
 ```
 https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/Kotatsu-Redo.jar
-```
-
-**YakaTeam.jar**
-```
-https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/YakaTeam.jar
 ```
 
 **Gekkoushi.jar**
