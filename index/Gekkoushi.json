@@ -66,8 +66,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://v2.ainzscans01.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v2.ainzscans01.com&sz=64"
+    "baseUrl": "https://v1.ainzscans01.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v1.ainzscans01.com&sz=64"
   },
   {
     "name": "AIYUMANGASCANLATION",
@@ -100,16 +100,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=alliedfansub.net&sz=64"
   },
   {
-    "name": "ALLMANGA",
-    "title": "AllManga",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://allmanga.to",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=allmanga.to&sz=64"
-  },
-  {
     "name": "ALLPORN_COMIC",
     "title": "AllPornComic",
     "lang": "en",
@@ -130,16 +120,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=alonescanlator.com.br&sz=64"
   },
   {
-    "name": "ALTAYSCANS",
-    "title": "AltayScans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://altayscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=altayscans.com&sz=64"
-  },
-  {
     "name": "ALTERKAISCANS",
     "title": "AlterkaiScans",
     "lang": "id",
@@ -155,7 +135,7 @@
     "lang": "tr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://alucardscans.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=alucardscans.com&sz=64"
   },
@@ -175,7 +155,7 @@
     "lang": "be",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://anibel.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=anibel.net&sz=64"
   },
@@ -205,9 +185,9 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://anime-sama.eu",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=anime-sama.eu&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://anime-sama.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=anime-sama.org&sz=64"
   },
   {
     "name": "ANIMEXNOVEL",
@@ -286,8 +266,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://01.apkomik.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=01.apkomik.com&sz=64"
+    "baseUrl": "https://apkomik.cc",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=apkomik.cc&sz=64"
   },
   {
     "name": "APOLL_COMICS",
@@ -306,8 +286,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://aquareader.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=aquareader.org&sz=64"
+    "baseUrl": "https://aquareader.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=aquareader.net&sz=64"
   },
   {
     "name": "ARABSDOUJIN",
@@ -338,16 +318,6 @@
     "isBroken": false,
     "baseUrl": "https://arabtoons.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=arabtoons.net&sz=64"
-  },
-  {
-    "name": "ARAREASCANS",
-    "title": "ArAreaScans",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://ar.kenmanga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ar.kenmanga.com&sz=64"
   },
   {
     "name": "ARAZNOVEL",
@@ -408,16 +378,6 @@
     "isBroken": false,
     "baseUrl": "https://ar.kenmanga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=ar.kenmanga.com&sz=64"
-  },
-  {
-    "name": "ARENASCANS",
-    "title": "Arenascans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://arenascan.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=arenascan.com&sz=64"
   },
   {
     "name": "ARGOSCOMICS",
@@ -550,16 +510,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=astral-manga.fr&sz=64"
   },
   {
-    "name": "ASTRAMANGA",
-    "title": "AstraManga",
-    "lang": "ru",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://astramanga.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=astramanga.org&sz=64"
-  },
-  {
     "name": "ASTRAMES",
     "title": "Astrames",
     "lang": "fr",
@@ -591,23 +541,13 @@
   },
   {
     "name": "ASURASCANS",
-    "title": "Asura Scans",
+    "title": "AsuraScans",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
     "baseUrl": "https://asurascans.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=asurascans.com&sz=64"
-  },
-  {
-    "name": "ASURASCANSGG",
-    "title": "AsuraScansGg",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://asurascans.us",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=asurascans.us&sz=64"
   },
   {
     "name": "ASURASCANSTR",
@@ -635,7 +575,7 @@
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://atemporal.cloud",
     "iconUrl": "https://www.google.com/s2/favicons?domain=atemporal.cloud&sz=64"
   },
@@ -680,16 +620,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=atsu.moe&sz=64"
   },
   {
-    "name": "ATSUMOE",
-    "title": "Atsu.moe",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://atsu.moe",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=atsu.moe&sz=64"
-  },
-  {
     "name": "AYATOON",
     "title": "AyaToon",
     "lang": "tr",
@@ -701,13 +631,13 @@
   },
   {
     "name": "AZORAMOON",
-    "title": "Azorafly",
+    "title": "AzoraMoon",
     "lang": "ar",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://azorafly.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=azorafly.com&sz=64"
+    "baseUrl": "https://azoramoon.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=azoramoon.com&sz=64"
   },
   {
     "name": "BABELWUXIA",
@@ -718,26 +648,6 @@
     "isBroken": false,
     "baseUrl": "https://babelwuxia.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=babelwuxia.com&sz=64"
-  },
-  {
-    "name": "BACAKOMIK",
-    "title": "BacaKomik",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://bacakomik.my",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=bacakomik.my&sz=64"
-  },
-  {
-    "name": "BACAMI",
-    "title": "Bacami",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://v1.bacami.site",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v1.bacami.site&sz=64"
   },
   {
     "name": "BAKAMAN",
@@ -911,7 +821,7 @@
   },
   {
     "name": "BFANGTEAM",
-    "title": "Moè Truyện (Unofficial)",
+    "title": "Moè Truyện",
     "lang": "vi",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -930,6 +840,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=bibimanga.com&sz=64"
   },
   {
+    "name": "BIGSOLO",
+    "title": "BigSolo",
+    "lang": "fr",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://bigsolo.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=bigsolo.org&sz=64"
+  },
+  {
     "name": "BIRDMANGA",
     "title": "BirdManga",
     "lang": "en",
@@ -945,7 +865,7 @@
     "lang": "id",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://birdtoon.shop",
     "iconUrl": "https://www.google.com/s2/favicons?domain=birdtoon.shop&sz=64"
   },
@@ -985,9 +905,9 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://www1.bluesolo.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www1.bluesolo.org&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://bluesolo.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=bluesolo.org&sz=64"
   },
   {
     "name": "BOKUGENTS",
@@ -1170,16 +1090,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=chainsawman-scan.com&sz=64"
   },
   {
-    "name": "CHIKARI",
-    "title": "Chikari",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://chikari.moe",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=chikari.moe&sz=64"
-  },
-  {
     "name": "CLONEMANGA",
     "title": "CloneManga",
     "lang": "en",
@@ -1190,24 +1100,14 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga.clone-army.org&sz=64"
   },
   {
-    "name": "CLOVERMANGA",
-    "title": "CloverManga",
-    "lang": "tr",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://webtoonhatti.me",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=webtoonhatti.me&sz=64"
-  },
-  {
     "name": "CMANGA",
     "title": "CManga",
     "lang": "vi",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://cmangax6.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=cmangax6.com&sz=64"
+    "baseUrl": "https://cmangax14.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=cmangax14.com&sz=64"
   },
   {
     "name": "COCOMIC",
@@ -1236,8 +1136,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://coffeemanga.io",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=coffeemanga.io&sz=64"
+    "baseUrl": "https://coffeemanga.ink",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=coffeemanga.ink&sz=64"
   },
   {
     "name": "COLORED_MANGA",
@@ -1280,12 +1180,22 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=comicarab.com&sz=64"
   },
   {
+    "name": "COMICASO",
+    "title": "Comicaso",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://comicaso.xyz",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=comicaso.xyz&sz=64"
+  },
+  {
     "name": "COMICAZEN",
     "title": "Comicazen",
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://comicazen.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=comicazen.com&sz=64"
   },
@@ -1300,16 +1210,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=azcomix.me&sz=64"
   },
   {
-    "name": "COMICLAND",
-    "title": "ComicLand",
-    "lang": "en",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": false,
-    "baseUrl": "https://comicland.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=comicland.org&sz=64"
-  },
-  {
     "name": "COMICSVALLEY",
     "title": "ComicsValley",
     "lang": "en",
@@ -1318,16 +1218,6 @@
     "isBroken": false,
     "baseUrl": "https://comicsvalley.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=comicsvalley.com&sz=64"
-  },
-  {
-    "name": "COMIKST",
-    "title": "Comikst",
-    "lang": "en",
-    "contentType": "COMICS",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://blackoutcomics.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=blackoutcomics.com&sz=64"
   },
   {
     "name": "COMIX",
@@ -1396,8 +1286,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://lc1.cosmicscans.to",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=lc1.cosmicscans.to&sz=64"
+    "baseUrl": "https://lc4.cosmicscans.asia",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=lc4.cosmicscans.asia&sz=64"
   },
   {
     "name": "CREEPYSCANS",
@@ -1411,13 +1301,13 @@
   },
   {
     "name": "CROWSCANS",
-    "title": "VipManga",
+    "title": "Hadess",
     "lang": "ar",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://vipmanga.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=vipmanga.org&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://www.hadess.xyz",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.hadess.xyz&sz=64"
   },
   {
     "name": "CRYSTALSCAN",
@@ -1475,7 +1365,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://cypheroscans.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=cypheroscans.xyz&sz=64"
   },
@@ -1605,7 +1495,7 @@
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://seitacelestial.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=seitacelestial.com&sz=64"
   },
@@ -1660,26 +1550,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=dianxiatrads.com&sz=64"
   },
   {
-    "name": "DILARTUBE",
-    "title": "Dilar Tube",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://v2.dilar.tube",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v2.dilar.tube&sz=64"
-  },
-  {
-    "name": "DILIB",
-    "title": "Dilib",
-    "lang": "vi",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://dilib.vn",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=dilib.vn&sz=64"
-  },
-  {
     "name": "DISKUSSCAN",
     "title": "DiskusScan",
     "lang": "pt",
@@ -1696,8 +1566,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://doctruyen3qhub3.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=doctruyen3qhub3.com&sz=64"
+    "baseUrl": "https://doctruyen3qhubs.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=doctruyen3qhubs.com&sz=64"
   },
   {
     "name": "DOCTRUYEN5S",
@@ -1728,6 +1598,16 @@
     "isBroken": true,
     "baseUrl": "https://domalfansb.com.tr",
     "iconUrl": "https://www.google.com/s2/favicons?domain=domalfansb.com.tr&sz=64"
+  },
+  {
+    "name": "DOUJINDESU",
+    "title": "DoujinDesu.tv",
+    "lang": "id",
+    "contentType": "HENTAI",
+    "nsfw": 1,
+    "isBroken": false,
+    "baseUrl": "https://doujindesu.tv",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=doujindesu.tv&sz=64"
   },
   {
     "name": "DOUJINDESURIP",
@@ -1808,16 +1688,6 @@
     "isBroken": false,
     "baseUrl": "https://dragontea.ink",
     "iconUrl": "https://www.google.com/s2/favicons?domain=dragontea.ink&sz=64"
-  },
-  {
-    "name": "DRAGONTRANSLATION",
-    "title": "Dragon Translation",
-    "lang": "es",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://dragontranslation.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=dragontranslation.net&sz=64"
   },
   {
     "name": "DRAGONTRANSLATIONORG",
@@ -1980,16 +1850,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=elevenscanlator.blogspot.com&sz=64"
   },
   {
-    "name": "ELFTOON",
-    "title": "Elftoon",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://elftoon.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=elftoon.com&sz=64"
-  },
-  {
     "name": "ELITEMANGA",
     "title": "EliteManga",
     "lang": "en",
@@ -2055,7 +1915,7 @@
     "lang": "fr",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://epsilonscan.to",
     "iconUrl": "https://www.google.com/s2/favicons?domain=epsilonscan.to&sz=64"
   },
@@ -2065,7 +1925,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://epsilonsoft.to",
     "iconUrl": "https://www.google.com/s2/favicons?domain=epsilonsoft.to&sz=64"
   },
@@ -2091,7 +1951,7 @@
   },
   {
     "name": "EROSSCANS",
-    "title": "Scythe Scans",
+    "title": "ErosScans",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -2158,6 +2018,16 @@
     "isBroken": false,
     "baseUrl": "https://factmanga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=factmanga.com&sz=64"
+  },
+  {
+    "name": "FANFOX",
+    "title": "FanFox",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://fanfox.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=fanfox.net&sz=64"
   },
   {
     "name": "FAYSCANS",
@@ -2400,16 +2270,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=frscans.com&sz=64"
   },
   {
-    "name": "FURYMANGA",
-    "title": "KingOfScans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://myshojo.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=myshojo.com&sz=64"
-  },
-  {
     "name": "FURYOSOCIETY",
     "title": "FuryoSociety",
     "lang": "fr",
@@ -2425,7 +2285,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://futari.info",
     "iconUrl": "https://www.google.com/s2/favicons?domain=futari.info&sz=64"
   },
@@ -2500,16 +2360,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=gdscans.com&sz=64"
   },
   {
-    "name": "GEASSCOMICS",
-    "title": "Geass Comics",
-    "lang": "pt",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://geasscomics.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=geasscomics.xyz&sz=64"
-  },
-  {
     "name": "GEDECOMIX",
     "title": "GedeComix",
     "lang": "en",
@@ -2528,16 +2378,6 @@
     "isBroken": true,
     "baseUrl": "https://gekkou.site",
     "iconUrl": "https://www.google.com/s2/favicons?domain=gekkou.site&sz=64"
-  },
-  {
-    "name": "GHOSTFANSUB",
-    "title": "GhostFansub",
-    "lang": "tr",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://ghostfansub.co",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ghostfansub.co&sz=64"
   },
   {
     "name": "GHOSTSCAN",
@@ -2560,16 +2400,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=gistamishousefansub.blogspot.com&sz=64"
   },
   {
-    "name": "GLORYMANGA",
-    "title": "GloryManga",
-    "lang": "tr",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://mangagezgini.site",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangagezgini.site&sz=64"
-  },
-  {
     "name": "GMANGA",
     "title": "Gmanga",
     "lang": "ar",
@@ -2586,8 +2416,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://goctruyentranh.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=goctruyentranh.net&sz=64"
+    "baseUrl": "https://goctruyentranh.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=goctruyentranh.com&sz=64"
   },
   {
     "name": "GOCTRUYENTRANHVUI",
@@ -2596,8 +2426,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://goctruyentranhvui30.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=goctruyentranhvui30.com&sz=64"
+    "baseUrl": "https://goctruyentranhvui21.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=goctruyentranhvui21.com&sz=64"
   },
   {
     "name": "GOLGEBAHCESI",
@@ -2650,16 +2480,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=grabber.zone&sz=64"
   },
   {
-    "name": "GREEDSCANS",
-    "title": "Greed Scans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://greedscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=greedscans.com&sz=64"
-  },
-  {
     "name": "GREMORYMANGAS",
     "title": "GremoryMangas",
     "lang": "es",
@@ -2671,13 +2491,13 @@
   },
   {
     "name": "GRIMELEK",
-    "title": "Grimelek",
+    "title": "SiyahMelek",
     "lang": "tr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://siyahmelek.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=siyahmelek.org&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://siyahmelek.pro",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=siyahmelek.pro&sz=64"
   },
   {
     "name": "GTOTHEGREATSITE",
@@ -2775,9 +2595,9 @@
     "lang": "vi",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://hangtruyen.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=hangtruyen.org&sz=64"
+    "isBroken": true,
+    "baseUrl": "https://hangtruyen.app",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hangtruyen.app&sz=64"
   },
   {
     "name": "HANMAN18",
@@ -2805,7 +2625,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://harimanga.me",
     "iconUrl": "https://www.google.com/s2/favicons?domain=harimanga.me&sz=64"
   },
@@ -2900,16 +2720,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=hentai2read.com&sz=64"
   },
   {
-    "name": "HENTAI3Z",
-    "title": "Hentai3z",
-    "lang": "en",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://manga18h.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manga18h.xyz&sz=64"
-  },
-  {
     "name": "HENTAI3ZCC",
     "title": "Hentai3z.cc",
     "lang": "en",
@@ -2951,13 +2761,13 @@
   },
   {
     "name": "HENTAIORIGINES",
-    "title": "HentaiOrigines",
+    "title": "Hentai Origines",
     "lang": "fr",
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://hentai-origines.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=hentai-origines.com&sz=64"
+    "baseUrl": "https://hentai-origines.fr",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hentai-origines.fr&sz=64"
   },
   {
     "name": "HENTAIREADER",
@@ -3036,8 +2846,8 @@
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://hentaivn.bond",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=hentaivn.bond&sz=64"
+    "baseUrl": "https://hentaivn.show",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hentaivn.show&sz=64"
   },
   {
     "name": "HENTAIWEBTOON",
@@ -3155,16 +2965,6 @@
     "lang": "ar",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://hijala.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=hijala.com&sz=64"
-  },
-  {
-    "name": "HIJALACOM",
-    "title": "Hijalacom",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
     "isBroken": false,
     "baseUrl": "https://hijala.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=hijala.com&sz=64"
@@ -3191,23 +2991,13 @@
   },
   {
     "name": "HIPERDEX",
-    "title": "HiperDex",
+    "title": "HiperToon",
     "lang": "en",
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
     "baseUrl": "https://hiperdex.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=hiperdex.com&sz=64"
-  },
-  {
-    "name": "HIPERTOON",
-    "title": "HiperToon",
-    "lang": "pt",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://hipertoon.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=hipertoon.com&sz=64"
   },
   {
     "name": "HIVECOMIC",
@@ -3226,8 +3016,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://mangabats.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangabats.com&sz=64"
+    "baseUrl": "https://www.mangabats.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.mangabats.com&sz=64"
   },
   {
     "name": "HNISCANTRAD",
@@ -3270,16 +3060,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=hotcomics.me/en&sz=64"
   },
   {
-    "name": "HOTOON",
-    "title": "Holotoon",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://v1.holotoon.site",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v1.holotoon.site&sz=64"
-  },
-  {
     "name": "HOUSEMANGAS",
     "title": "HouseMangas",
     "lang": "es",
@@ -3315,7 +3095,7 @@
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://readhunters.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=readhunters.xyz&sz=64"
   },
@@ -3345,9 +3125,9 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://02.hwago.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=02.hwago.xyz&sz=64"
+    "isBroken": true,
+    "baseUrl": "https://hwago01.xyz",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hwago01.xyz&sz=64"
   },
   {
     "name": "HYPERIONSCANS",
@@ -3365,7 +3145,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://ichiromanga.my.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=ichiromanga.my.id&sz=64"
   },
@@ -3376,8 +3156,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://02.ikiru.wtf",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=02.ikiru.wtf&sz=64"
   },
   {
     "name": "ILLUSIONSCAN",
@@ -3388,16 +3168,6 @@
     "isBroken": false,
     "baseUrl": "https://illusionscan.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=illusionscan.com&sz=64"
-  },
-  {
-    "name": "IMMORTALUPDATES",
-    "title": "ImmortalUpdates",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://immortalupdates.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=immortalupdates.com&sz=64"
   },
   {
     "name": "IMPARATORMANGA",
@@ -3411,13 +3181,13 @@
   },
   {
     "name": "IMPERIODABRITANNIA",
-    "title": "Imp\\u00e9rio da Britannia",
+    "title": "ImperioDaBritannia",
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://imperiodabritannia.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=imperiodabritannia.com&sz=64"
   },
   {
     "name": "IMPERIOSCANS",
@@ -3432,16 +3202,6 @@
   {
     "name": "INARIMANGA",
     "title": "InariManga",
-    "lang": "es",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://clubinari.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=clubinari.org&sz=64"
-  },
-  {
-    "name": "INARIPIKAV",
-    "title": "InariPikav",
     "lang": "es",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -3480,6 +3240,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=infrafandub.com&sz=64"
   },
   {
+    "name": "INKAPK",
+    "title": "InkAPK",
+    "lang": "pt",
+    "contentType": "HENTAI",
+    "nsfw": 1,
+    "isBroken": false,
+    "baseUrl": "https://inkapk.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=inkapk.net&sz=64"
+  },
+  {
     "name": "INMANGA",
     "title": "InManga",
     "lang": "es",
@@ -3508,16 +3278,6 @@
     "isBroken": false,
     "baseUrl": "https://instahentai.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=instahentai.com&sz=64"
-  },
-  {
-    "name": "INSTAMANHWA",
-    "title": "InstaManhwa",
-    "lang": "en",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://www.manhwaden.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.manhwaden.com&sz=64"
   },
   {
     "name": "INUMANGA",
@@ -3560,16 +3320,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=paragonscans.com&sz=64"
   },
   {
-    "name": "ITHINKILIKEYOU",
-    "title": "IThinkILikeYou",
-    "lang": "en",
-    "contentType": "COMICS",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://ithinkilikeyou.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ithinkilikeyou.net&sz=64"
-  },
-  {
     "name": "ITSYOURIGHTMANHUA",
     "title": "ItsYouRightManhua",
     "lang": "en",
@@ -3601,7 +3351,7 @@
   },
   {
     "name": "JEAZTWOBLUESCANS",
-    "title": "Jeaz Scans",
+    "title": "Lector HUB",
     "lang": "es",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -3680,16 +3430,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=kaijuno8.fr&sz=64"
   },
   {
-    "name": "KAISCANS",
-    "title": "KaiScans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://luascans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=luascans.com&sz=64"
-  },
-  {
     "name": "KAKUSEIPROJECT",
     "title": "KakuseiProject",
     "lang": "pt",
@@ -3725,19 +3465,9 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://katakomik.my.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=katakomik.my.id&sz=64"
-  },
-  {
-    "name": "KAWIIMANGA",
-    "title": "Kawaii Manga",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://kawaiimanga.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=kawaiimanga.org&sz=64"
   },
   {
     "name": "KDTSCANS",
@@ -3800,16 +3530,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=kingdomscan.com&sz=64"
   },
   {
-    "name": "KINGOFSHOJO",
-    "title": "King of Shojo",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://kingofshojo.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=kingofshojo.com&sz=64"
-  },
-  {
     "name": "KINGS_MANGA",
     "title": "SuperDoujin",
     "lang": "th",
@@ -3826,8 +3546,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://v5.kiryuu.to",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v5.kiryuu.to&sz=64"
   },
   {
     "name": "KISHISAN",
@@ -3855,9 +3575,9 @@
     "lang": "id",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://klikmanga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=klikmanga.com&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://klikmanga.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=klikmanga.org&sz=64"
   },
   {
     "name": "KLMANHUA",
@@ -3865,7 +3585,7 @@
     "lang": "id",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://klmanhua.blogspot.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=klmanhua.blogspot.com&sz=64"
   },
@@ -3873,8 +3593,8 @@
     "name": "KLZ9",
     "title": "Klz9",
     "lang": "ja",
-    "contentType": "MANGA",
-    "nsfw": 0,
+    "contentType": "HENTAI",
+    "nsfw": 1,
     "isBroken": false,
     "baseUrl": "https://klz9.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=klz9.com&sz=64"
@@ -3946,8 +3666,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://be.komikcast.cc",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=be.komikcast.cc&sz=64"
+    "baseUrl": "https://v2.komikcast.fit",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v2.komikcast.fit&sz=64"
   },
   {
     "name": "KOMIKDEWASA",
@@ -3985,49 +3705,29 @@
     "lang": "id",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://komikgo.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=komikgo.xyz&sz=64"
   },
   {
-    "name": "KOMIKID",
-    "title": "KomikId",
+    "name": "KOMIKINDO",
+    "title": "KomikIndo",
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://komiku.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=komiku.org&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://komiksin.id",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=komiksin.id&sz=64"
   },
   {
-    "name": "KOMIKINDO_CH",
-    "title": "KomikIndo.ch",
+    "name": "KOMIKINDO_MOE",
+    "title": "KomikIndo.org",
     "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
+    "contentType": "HENTAI",
+    "nsfw": 1,
     "isBroken": false,
     "baseUrl": "https://komikindo.ch",
     "iconUrl": "https://www.google.com/s2/favicons?domain=komikindo.ch&sz=64"
-  },
-  {
-    "name": "KOMIKINDO_INFO",
-    "title": "KomikIndo.info",
-    "lang": "id",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://mangasusuku.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangasusuku.com&sz=64"
-  },
-  {
-    "name": "KOMIKINDO_LIVE",
-    "title": "Komikindo.live",
-    "lang": "id",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": false,
-    "baseUrl": "https://komikindo.live",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=komikindo.live&sz=64"
   },
   {
     "name": "KOMIKLAB",
@@ -4050,16 +3750,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=komikmu.top&sz=64"
   },
   {
-    "name": "KOMIKLOKALCFD",
-    "title": "KomikLokal.mom",
-    "lang": "id",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://komikmu.icu",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=komikmu.icu&sz=64"
-  },
-  {
     "name": "KOMIKLOVERS",
     "title": "KomikLovers",
     "lang": "id",
@@ -4076,8 +3766,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://komikmama.online",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=komikmama.online&sz=64"
+    "baseUrl": "https://komikmama.lat",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=komikmama.lat&sz=64"
   },
   {
     "name": "KOMIKPIX",
@@ -4128,16 +3818,6 @@
     "isBroken": true,
     "baseUrl": "https://komiksay.info",
     "iconUrl": "https://www.google.com/s2/favicons?domain=komiksay.info&sz=64"
-  },
-  {
-    "name": "KOMIKSIN_CO",
-    "title": "Komiksin",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://komiksin.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=komiksin.net&sz=64"
   },
   {
     "name": "KOMIKSTATION",
@@ -4205,7 +3885,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://www.kumapage.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.kumapage.com&sz=64"
   },
@@ -4258,16 +3938,6 @@
     "isBroken": true,
     "baseUrl": "https://ladyestelarscan.com.br",
     "iconUrl": "https://www.google.com/s2/favicons?domain=ladyestelarscan.com.br&sz=64"
-  },
-  {
-    "name": "LAGOONSCANS",
-    "title": "Lagoon Scans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://lagoonscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=lagoonscans.com&sz=64"
   },
   {
     "name": "LAIDBACKSCANS",
@@ -4550,16 +4220,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=lichmangas.com&sz=64"
   },
   {
-    "name": "LICHSUBS",
-    "title": "LichSubs",
-    "lang": "tr",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://www.kuroimanga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.kuroimanga.com&sz=64"
-  },
-  {
     "name": "LIKEMANGA",
     "title": "LikeManga",
     "lang": "en",
@@ -4575,7 +4235,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://likemanga.in",
     "iconUrl": "https://www.google.com/s2/favicons?domain=likemanga.in&sz=64"
   },
@@ -4691,7 +4351,17 @@
   },
   {
     "name": "LUACOMIC_COM",
-    "title": "Lua Scans",
+    "title": "luaComic.com",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://luascans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=luascans.com&sz=64"
+  },
+  {
+    "name": "LUASCANS",
+    "title": "luaComic.net",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -4736,8 +4406,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://02.lumosgg.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=02.lumosgg.com&sz=64"
+    "baseUrl": "https://lumos01.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=lumos01.com&sz=64"
   },
   {
     "name": "LUNARHENTAI",
@@ -4796,8 +4466,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://luottruyen15.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=luottruyen15.com&sz=64"
+    "baseUrl": "https://luottruyen2.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=luottruyen2.com&sz=64"
   },
   {
     "name": "LUPITEAM",
@@ -4816,8 +4486,8 @@
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://v4.luvyaa.co",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v4.luvyaa.co&sz=64"
+    "baseUrl": "https://v2.luvyaa.co",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=v2.luvyaa.co&sz=64"
   },
   {
     "name": "LUXMANGA",
@@ -4840,16 +4510,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=madaradex.org&sz=64"
   },
   {
-    "name": "MADARASCANS",
-    "title": "Madara Scans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://madarascans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=madarascans.com&sz=64"
-  },
-  {
     "name": "MAFIAMANGA",
     "title": "MafiaManga",
     "lang": "th",
@@ -4865,7 +4525,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://www.magerin.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.magerin.com&sz=64"
   },
@@ -4883,11 +4543,11 @@
     "name": "MAIDSCAN",
     "title": "MaidScan",
     "lang": "pt",
-    "contentType": "MANGA",
-    "nsfw": 0,
+    "contentType": "HENTAI",
+    "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://novo.empreguetes.site",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=novo.empreguetes.site&sz=64"
   },
   {
     "name": "MAIDSECRET",
@@ -4958,16 +4618,6 @@
     "isBroken": false,
     "baseUrl": "https://manga18fx.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga18fx.com&sz=64"
-  },
-  {
-    "name": "MANGA18H",
-    "title": "Manga18h",
-    "lang": "en",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://manga18h.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manga18h.xyz&sz=64"
   },
   {
     "name": "MANGA18X",
@@ -5080,16 +4730,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga-ay.com&sz=64"
   },
   {
-    "name": "MANGABALL_AR",
-    "title": "Manga Ball (Arabic)",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
-  },
-  {
     "name": "MANGABEE",
     "title": "MangaBee",
     "lang": "en",
@@ -5115,7 +4755,7 @@
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://mangabr.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangabr.net&sz=64"
   },
@@ -5125,19 +4765,9 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://mangabuddy.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangabuddy.com&sz=64"
-  },
-  {
-    "name": "MANGABUFF",
-    "title": "MangaBuff",
-    "lang": "ru",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangabuff.ru",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangabuff.ru&sz=64"
   },
   {
     "name": "MANGACHAN",
@@ -5171,23 +4801,13 @@
   },
   {
     "name": "MANGACLASH",
-    "title": "ToonClash",
+    "title": "MangaClash",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://toonclash.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=toonclash.com&sz=64"
-  },
-  {
-    "name": "MANGACLOUD",
-    "title": "MangaCloud",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangacloud.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangacloud.org&sz=64"
+    "baseUrl": "https://mangaclash.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangaclash.com&sz=64"
   },
   {
     "name": "MANGACRAZY",
@@ -5270,16 +4890,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangadop.net&sz=64"
   },
   {
-    "name": "MANGADOTNET",
-    "title": "Mangadotnet",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangadot.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangadot.net&sz=64"
-  },
-  {
     "name": "MANGAECLIPSE",
     "title": "MangaEclipse",
     "lang": "en",
@@ -5298,16 +4908,6 @@
     "isBroken": false,
     "baseUrl": "https://mangaefendisi.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangaefendisi.net&sz=64"
-  },
-  {
-    "name": "MANGAEFFECT",
-    "title": "MangaEffect",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://www.mangaread.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.mangaread.org&sz=64"
   },
   {
     "name": "MANGAESP",
@@ -5346,8 +4946,68 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://mangafire.to",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangafire.to&sz=64"
+    "baseUrl": "https://en",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=en&sz=64"
+  },
+  {
+    "name": "MANGAFIRE_ES",
+    "title": "MangaFire Spanish",
+    "lang": "es",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://es",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=es&sz=64"
+  },
+  {
+    "name": "MANGAFIRE_ESLA",
+    "title": "MangaFire Spanish (Latim)",
+    "lang": "es",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://es-la",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=es-la&sz=64"
+  },
+  {
+    "name": "MANGAFIRE_FR",
+    "title": "MangaFire French",
+    "lang": "fr",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://fr",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=fr&sz=64"
+  },
+  {
+    "name": "MANGAFIRE_JA",
+    "title": "MangaFire Japanese",
+    "lang": "ja",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://ja",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ja&sz=64"
+  },
+  {
+    "name": "MANGAFIRE_PT",
+    "title": "MangaFire Portuguese",
+    "lang": "pt",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://pt",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=pt&sz=64"
+  },
+  {
+    "name": "MANGAFIRE_PTBR",
+    "title": "MangaFire Portuguese (Brazil)",
+    "lang": "pt",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://pt-br",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=pt-br&sz=64"
   },
   {
     "name": "MANGAFLAME",
@@ -5395,7 +5055,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://www.mangafr.org",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.mangafr.org&sz=64"
   },
@@ -5406,18 +5066,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
-  },
-  {
-    "name": "MANGAGALAXY",
-    "title": "MangaGalaxy",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://vortexscans.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=vortexscans.org&sz=64"
+    "baseUrl": "https://mangafreak.online",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangafreak.online&sz=64"
   },
   {
     "name": "MANGAGEKO",
@@ -5451,13 +5101,13 @@
   },
   {
     "name": "MANGAGO",
-    "title": "Mangago",
+    "title": "MangaGo",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://www.mangago.me",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.mangago.me&sz=64"
+    "isBroken": true,
+    "baseUrl": "https://mangago.me",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangago.me&sz=64"
   },
   {
     "name": "MANGAGOJO",
@@ -5500,6 +5150,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangahentai.me&sz=64"
   },
   {
+    "name": "MANGAHOME",
+    "title": "MangaHome",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://www.mangahome.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.mangahome.com&sz=64"
+  },
+  {
     "name": "MANGAHONA",
     "title": "MangaHona",
     "lang": "pl",
@@ -5518,16 +5178,6 @@
     "isBroken": false,
     "baseUrl": "https://mangahub.fr",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangahub.fr&sz=64"
-  },
-  {
-    "name": "MANGAHUB_IO",
-    "title": "MangaHub.io",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangahub.io",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangahub.io&sz=64"
   },
   {
     "name": "MANGAHUB_LINK",
@@ -5558,16 +5208,6 @@
     "isBroken": false,
     "baseUrl": "https://manga.in.ua",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga.in.ua&sz=64"
-  },
-  {
-    "name": "MANGAIRO",
-    "title": "MangaIro",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "",
-    "iconUrl": ""
   },
   {
     "name": "MANGAITALIA",
@@ -5602,16 +5242,6 @@
   {
     "name": "MANGAKAKALOT",
     "title": "Mangakakalot.gg",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
-  },
-  {
-    "name": "MANGAKAKALOTTV",
-    "title": "Mangakakalot.tv",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -5680,16 +5310,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangakings.com.tr&sz=64"
   },
   {
-    "name": "MANGAKIO",
-    "title": "MangaK",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangak.io",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangak.io&sz=64"
-  },
-  {
     "name": "MANGAKISS",
     "title": "MangaKiss",
     "lang": "en",
@@ -5745,7 +5365,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://mangakyo.vip",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangakyo.vip&sz=64"
   },
@@ -5840,16 +5460,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga-lionz.com&sz=64"
   },
   {
-    "name": "MANGALIVRE",
-    "title": "Manga Livre",
-    "lang": "pt",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangalivre.tv",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangalivre.tv&sz=64"
-  },
-  {
     "name": "MANGAMAMMY",
     "title": "MangaMammy",
     "lang": "ru",
@@ -5936,8 +5546,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://www.natomanga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.natomanga.com&sz=64"
+    "baseUrl": "https://www.manganato.gg",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.manganato.gg&sz=64"
   },
   {
     "name": "MANGANELO_COM",
@@ -5945,9 +5555,9 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "",
-    "iconUrl": ""
+    "isBroken": false,
+    "baseUrl": "https://www.nelomanga.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.nelomanga.net&sz=64"
   },
   {
     "name": "MANGANINJA",
@@ -5958,16 +5568,6 @@
     "isBroken": false,
     "baseUrl": "https://manganinja.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manganinja.com&sz=64"
-  },
-  {
-    "name": "MANGANOON",
-    "title": "MangaNoon",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://vrnoin.site",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=vrnoin.site&sz=64"
   },
   {
     "name": "MANGAOKU",
@@ -6008,16 +5608,6 @@
     "isBroken": false,
     "baseUrl": "https://mangaonelove.site",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangaonelove.site&sz=64"
-  },
-  {
-    "name": "MANGAONI",
-    "title": "MangaOni",
-    "lang": "es",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://manga-oni.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manga-oni.com&sz=64"
   },
   {
     "name": "MANGAONLINE",
@@ -6130,6 +5720,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangaplus.shueisha.co.jp&sz=64"
   },
   {
+    "name": "MANGAPRO",
+    "title": "MangaPro",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://promanga.pro",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=promanga.pro&sz=64"
+  },
+  {
     "name": "MANGAPUMA",
     "title": "MangaPuma",
     "lang": "en",
@@ -6160,16 +5760,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangaraw.best&sz=64"
   },
   {
-    "name": "MANGARBIC",
-    "title": "MangaArabic",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://lekmanga.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=lekmanga.net&sz=64"
-  },
-  {
     "name": "MANGAREAD",
     "title": "MangaRead",
     "lang": "en",
@@ -6192,16 +5782,6 @@
   {
     "name": "MANGAROCK",
     "title": "MangaRock",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangarockteam.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangarockteam.com&sz=64"
-  },
-  {
-    "name": "MANGAROCKTEAM",
-    "title": "MangaRock.team",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -6320,16 +5900,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga-sehri.net&sz=64"
   },
   {
-    "name": "MANGASHI",
-    "title": "Manga-shi",
-    "lang": "ru",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://manga-shi.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manga-shi.org&sz=64"
-  },
-  {
     "name": "MANGASHIINA",
     "title": "MangaMukai.com",
     "lang": "es",
@@ -6436,8 +6006,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://manga-starz.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manga-starz.net&sz=64"
+    "baseUrl": "https://manga-starz.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manga-starz.com&sz=64"
   },
   {
     "name": "MANGASTORM",
@@ -6470,16 +6040,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangasusuku.com&sz=64"
   },
   {
-    "name": "MANGASWAT",
-    "title": "Manga Swat",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://meshmanga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=meshmanga.com&sz=64"
-  },
-  {
     "name": "MANGASY",
     "title": "Mangasy",
     "lang": "en",
@@ -6488,26 +6048,6 @@
     "isBroken": true,
     "baseUrl": "https://www.mangasy.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.mangasy.com&sz=64"
-  },
-  {
-    "name": "MANGATALE",
-    "title": "MangaTale",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://ikiru.one",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ikiru.one&sz=64"
-  },
-  {
-    "name": "MANGATAROORG",
-    "title": "Mangataro",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangataro.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangataro.org&sz=64"
   },
   {
     "name": "MANGATELLERS",
@@ -6656,8 +6196,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://mangaworld.mx",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangaworld.mx&sz=64"
+    "baseUrl": "https://mangaworld.ac",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangaworld.ac&sz=64"
   },
   {
     "name": "MANGAWORLDADULT",
@@ -6682,16 +6222,6 @@
   {
     "name": "MANGAWT",
     "title": "MangaWt.com",
-    "lang": "tr",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangawt.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangawt.com&sz=64"
-  },
-  {
-    "name": "MANGAWT_NET",
-    "title": "MangaWt.net",
     "lang": "tr",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -6725,7 +6255,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://mangayaro.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangayaro.id&sz=64"
   },
@@ -6798,36 +6328,6 @@
     "isBroken": false,
     "baseUrl": "https://mangakomi.io",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangakomi.io&sz=64"
-  },
-  {
-    "name": "MANGA_MANHUA",
-    "title": "MangaManhua",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mangaonlineteam.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangaonlineteam.com&sz=64"
-  },
-  {
-    "name": "MANGA_OVH",
-    "title": "Манга ОВХ",
-    "lang": "ru",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
-  },
-  {
-    "name": "MANGA_OVH_UPDATES",
-    "title": "Манга ОВХ (Обновления)",
-    "lang": "ru",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
   },
   {
     "name": "MANGA_QUEEN",
@@ -7056,8 +6556,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://manhuauss.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manhuauss.com&sz=64"
+    "baseUrl": "https://manhuaus.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhuaus.com&sz=64"
   },
   {
     "name": "MANHUAZONE",
@@ -7078,16 +6578,6 @@
     "isBroken": false,
     "baseUrl": "https://www.manhuazonghe.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.manhuazonghe.com&sz=64"
-  },
-  {
-    "name": "MANHWA18APP",
-    "title": "Manhwa18.app",
-    "lang": "en",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://manhwa18.app",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwa18.app&sz=64"
   },
   {
     "name": "MANHWA18CC",
@@ -7166,8 +6656,8 @@
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://manhwadesu.im",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwadesu.im&sz=64"
+    "baseUrl": "https://manhwadesu.asia",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwadesu.asia&sz=64"
   },
   {
     "name": "MANHWAFREAKE",
@@ -7175,7 +6665,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://manhwafreake.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manhwafreake.com&sz=64"
   },
@@ -7226,8 +6716,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://manhwaindo.my",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaindo.my&sz=64"
+    "baseUrl": "https://manhwaindo.one",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaindo.one&sz=64"
   },
   {
     "name": "MANHWAINDOICU",
@@ -7285,7 +6775,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://manhwalist.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manhwalist.xyz&sz=64"
   },
@@ -7330,26 +6820,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=manhwanew.com&sz=64"
   },
   {
-    "name": "MANHWANEX",
-    "title": "ManhwaNex",
-    "lang": "en",
-    "contentType": "MANHWA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://manhwanex.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwanex.com&sz=64"
-  },
-  {
-    "name": "MANHWAONLINE",
-    "title": "ManhwaOnline",
-    "lang": "es",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://manhwa-online.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwa-online.com&sz=64"
-  },
-  {
     "name": "MANHWAPLUS",
     "title": "ManhwaPlus",
     "lang": "id",
@@ -7378,6 +6848,16 @@
     "isBroken": false,
     "baseUrl": "https://manhwaraw.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaraw.com&sz=64"
+  },
+  {
+    "name": "MANHWAREAD",
+    "title": "ManhwaRead",
+    "lang": "en",
+    "contentType": "HENTAI",
+    "nsfw": 1,
+    "isBroken": false,
+    "baseUrl": "https://manhwaread.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaread.com&sz=64"
   },
   {
     "name": "MANHWASCO",
@@ -7565,19 +7045,9 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://tenshi01.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=tenshi01.id&sz=64"
-  },
-  {
-    "name": "MATODEX",
-    "title": "MatoDex",
-    "lang": "vi",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://mato.suicaodex.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mato.suicaodex.com&sz=64"
   },
   {
     "name": "MAXGSSCAN",
@@ -7600,24 +7070,14 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=mediocretoons.com&sz=64"
   },
   {
-    "name": "MEDUSASCANS",
-    "title": "Medusascans",
-    "lang": "id",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": false,
-    "baseUrl": "https://medusascans.pro",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=medusascans.pro&sz=64"
-  },
-  {
     "name": "MEHENTAI",
     "title": "MeHentai",
     "lang": "vi",
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://mehentai.blog",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mehentai.blog&sz=64"
+    "baseUrl": "https://mehentai.tv",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mehentai.tv&sz=64"
   },
   {
     "name": "MEHENTAIVN",
@@ -7646,8 +7106,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://merlinscans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=merlinscans.com&sz=64"
   },
   {
     "name": "MGKOMIK",
@@ -7705,9 +7165,9 @@
     "lang": "id",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": false,
-    "baseUrl": "https://www.mikoroku.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.mikoroku.com&sz=64"
+    "isBroken": true,
+    "baseUrl": "https://www.mikoroku.web.id",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.mikoroku.web.id&sz=64"
   },
   {
     "name": "MIKROKOSMOSFB",
@@ -7825,7 +7285,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://monzee01.my.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=monzee01.my.id&sz=64"
   },
@@ -7996,8 +7456,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://natsu.tv",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=natsu.tv&sz=64"
+    "baseUrl": "https://natsu.id",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=natsu.id&sz=64"
   },
   {
     "name": "NEATMANGA",
@@ -8020,16 +7480,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=necroscans.com&sz=64"
   },
   {
-    "name": "NEKOPOST",
-    "title": "NekoPost",
-    "lang": "th",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://www.superdoujin.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.superdoujin.org&sz=64"
-  },
-  {
     "name": "NEKOSCANS",
     "title": "NekoScans",
     "lang": "es",
@@ -8041,13 +7491,13 @@
   },
   {
     "name": "NEOX_SCANS",
-    "title": "NeoxScans",
+    "title": "MangaLivre",
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://mangalivre.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=mangalivre.net&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://mangalivre.tv",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangalivre.tv&sz=64"
   },
   {
     "name": "NEROXUS",
@@ -8096,8 +7546,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://nettruyenhe.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=nettruyenhe.com&sz=64"
+    "baseUrl": "https://nettruyen.africa",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=nettruyen.africa&sz=64"
   },
   {
     "name": "NETTRUYENLL",
@@ -8136,8 +7586,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://nettruyenvia.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=nettruyenvia.com&sz=64"
+    "baseUrl": "https://nettruyenviet1.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=nettruyenviet1.com&sz=64"
   },
   {
     "name": "NETTRUYENX",
@@ -8145,7 +7595,7 @@
     "lang": "vi",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://nettruyenx.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=nettruyenx.net&sz=64"
   },
@@ -8156,8 +7606,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://neumanga.id",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=neumanga.id&sz=64"
+    "baseUrl": "https://neumanga.xyz",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=neumanga.xyz&sz=64"
   },
   {
     "name": "NEWMANHUA",
@@ -8176,8 +7626,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://newtruyentranh4.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=newtruyentranh4.com&sz=64"
+    "baseUrl": "https://newtruyentranh7.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=newtruyentranh7.com&sz=64"
   },
   {
     "name": "NGAMENKOMIK",
@@ -8196,8 +7646,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://id.ngomik.cloud",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=id.ngomik.cloud&sz=64"
+    "baseUrl": "https://ngomik.mom",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ngomik.mom&sz=64"
   },
   {
     "name": "NHATTRUYENVN",
@@ -8215,9 +7665,9 @@
     "lang": "vi",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://nhentaiworld-h1.art",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=nhentaiworld-h1.art&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://nhentaiclub.site",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=nhentaiclub.site&sz=64"
   },
   {
     "name": "NICOVIDEO_SEIGA",
@@ -8245,9 +7695,9 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://qiscans.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=qiscans.org&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://nightsup.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=nightsup.net&sz=64"
   },
   {
     "name": "NIMEMOB",
@@ -8255,7 +7705,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://www.nimemob.my.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.nimemob.my.id&sz=64"
   },
@@ -8265,7 +7715,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://www.ninemanga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.ninemanga.com&sz=64"
   },
@@ -8365,7 +7815,7 @@
     "lang": "ar",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://swatscans.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=swatscans.com&sz=64"
   },
@@ -8376,8 +7826,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://noromax02.my.id",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=noromax02.my.id&sz=64"
+    "baseUrl": "https://noromax01.my.id",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=noromax01.my.id&sz=64"
   },
   {
     "name": "NORTEROSE",
@@ -8430,6 +7880,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.noxscans.com&sz=64"
   },
   {
+    "name": "NOXSUBS",
+    "title": "NoxSubs",
+    "lang": "tr",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://noxsubs.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=noxsubs.net&sz=64"
+  },
+  {
     "name": "NTRMANGA",
     "title": "NtrManga",
     "lang": "th",
@@ -8450,6 +7910,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=1manhwa.com&sz=64"
   },
   {
+    "name": "NYRAXMANGA",
+    "title": "Nyraxmanga",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://nyraxmanga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=nyraxmanga.com&sz=64"
+  },
+  {
     "name": "NYXMANGA",
     "title": "NyxManga",
     "lang": "tr",
@@ -8458,16 +7928,6 @@
     "isBroken": true,
     "baseUrl": "https://nyxmanga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=nyxmanga.com&sz=64"
-  },
-  {
-    "name": "NYXSCANS",
-    "title": "Nyx Scans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://nyxscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=nyxscans.com&sz=64"
   },
   {
     "name": "OIOIVN",
@@ -8506,8 +7966,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://olympusbiblioteca.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=olympusbiblioteca.com&sz=64"
+    "baseUrl": "https://leerolimpo.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=leerolimpo.com&sz=64"
   },
   {
     "name": "OMEGASCANS",
@@ -8548,16 +8008,6 @@
     "isBroken": false,
     "baseUrl": "https://onepunchmanscan.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=onepunchmanscan.com&sz=64"
-  },
-  {
-    "name": "ONISAGA_EN",
-    "title": "OniSaga (English)",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://onisaga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=onisaga.com&sz=64"
   },
   {
     "name": "ONLYMANHWA",
@@ -8658,16 +8108,6 @@
     "isBroken": true,
     "baseUrl": "https://otsugami.id",
     "iconUrl": "https://www.google.com/s2/favicons?domain=otsugami.id&sz=64"
-  },
-  {
-    "name": "PANCONCOLA",
-    "title": "Panconcola",
-    "lang": "es",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://artessupremas.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=artessupremas.com&sz=64"
   },
   {
     "name": "PANTHEONSCAN",
@@ -8775,13 +8215,13 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://phenix-scans.co",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=phenix-scans.co&sz=64"
+    "isBroken": true,
+    "baseUrl": "https://phenix-scans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=phenix-scans.com&sz=64"
   },
   {
     "name": "PHILIASCANS",
-    "title": "Philia Scans",
+    "title": "PhiliaScans",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
@@ -8876,8 +8316,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://plumacomics.cloud",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=plumacomics.cloud&sz=64"
+    "baseUrl": "https://plumacomics.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=plumacomics.com&sz=64"
   },
   {
     "name": "PO2SCANS",
@@ -8950,6 +8390,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=porncomix.online&sz=64"
   },
   {
+    "name": "PORNHWASCANS",
+    "title": "PornhwaScans",
+    "lang": "fr",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": true,
+    "baseUrl": "https://pornhwascans.fr",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=pornhwascans.fr&sz=64"
+  },
+  {
     "name": "PORTALYAOI",
     "title": "PortalYaoi",
     "lang": "pt",
@@ -8965,9 +8415,9 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://poseidonscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=poseidonscans.com&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://poseidon-scans.co",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=poseidon-scans.co&sz=64"
   },
   {
     "name": "POTATOMANGA",
@@ -9000,16 +8450,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=prismahentai.com&sz=64"
   },
   {
-    "name": "PROCHAN",
-    "title": "Prochan",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://prochan.pro",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=prochan.pro&sz=64"
-  },
-  {
     "name": "PROJETOSCANLATOR",
     "title": "ProjetoScanlator",
     "lang": "pt",
@@ -9040,6 +8480,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=psunicorn.com&sz=64"
   },
   {
+    "name": "PUNKRECORDZ",
+    "title": "PunkRecordz",
+    "lang": "fr",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://punkrecordz.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=punkrecordz.com&sz=64"
+  },
+  {
     "name": "PURURIN",
     "title": "Pururin",
     "lang": "en",
@@ -9068,16 +8518,6 @@
     "isBroken": false,
     "baseUrl": "https://lector.pzykosis666hfansub.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=lector.pzykosis666hfansub.com&sz=64"
-  },
-  {
-    "name": "QISCANS",
-    "title": "Qi Scans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://qimanhwa.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=qimanhwa.com&sz=64"
   },
   {
     "name": "QUAANHDAOCUTEO",
@@ -9125,9 +8565,9 @@
     "lang": "tr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "isBroken": true,
+    "baseUrl": "https://ragnarscans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ragnarscans.com&sz=64"
   },
   {
     "name": "RAGNASCAN",
@@ -9280,16 +8720,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=raysscan.blogspot.com&sz=64"
   },
   {
-    "name": "READCOMICONLINE",
-    "title": "ReadComicOnline",
-    "lang": "en",
-    "contentType": "COMICS",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://readcomiconline.li",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=readcomiconline.li&sz=64"
-  },
-  {
     "name": "READCOMICSONLINE",
     "title": "ReadComicsOnline.ru",
     "lang": "en",
@@ -9405,7 +8835,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://reaper-scans.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=reaper-scans.com&sz=64"
   },
@@ -9445,7 +8875,7 @@
     "lang": "pt",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://remangas.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=remangas.net&sz=64"
   },
@@ -9481,13 +8911,13 @@
   },
   {
     "name": "REZOSCANS",
-    "title": "RezoScans",
+    "title": "Rezo Scans",
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://rezoscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=rezoscans.com&sz=64"
+    "baseUrl": "https://rezoscan.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=rezoscan.org&sz=64"
   },
   {
     "name": "RHPLUSMANGA",
@@ -9525,19 +8955,9 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://rimuscan.fr",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=rimuscan.fr&sz=64"
-  },
-  {
-    "name": "RINKOCOMICS",
-    "title": "Rinko Comics",
-    "lang": "en",
-    "contentType": "COMICS",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://rinkocomics.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=rinkocomics.com&sz=64"
+    "isBroken": true,
+    "baseUrl": "https://rimuscans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=rimuscans.com&sz=64"
   },
   {
     "name": "RIO2MANGANET",
@@ -9586,8 +9006,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://rocksmanga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=rocksmanga.com&sz=64"
+    "baseUrl": "https://rockscans.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=rockscans.org&sz=64"
   },
   {
     "name": "ROGMANGAS",
@@ -9620,34 +9040,14 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=roliascan.com&sz=64"
   },
   {
-    "name": "ROMANTIKMANGA",
-    "title": "RomantikManga",
-    "lang": "tr",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://webtoonhatti.club",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=webtoonhatti.club&sz=64"
-  },
-  {
-    "name": "ROSEVEIL",
-    "title": "Roseveil",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://roseveil.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=roseveil.org&sz=64"
-  },
-  {
     "name": "RUAHAPCHANHDAY",
     "title": "Rùa Hấp Chanh Dây",
     "lang": "vi",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://ruahapchanhday.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ruahapchanhday.com&sz=64"
+    "baseUrl": "https://ruahapchanhday1.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=ruahapchanhday1.com&sz=64"
   },
   {
     "name": "RUYAMANGA",
@@ -9658,26 +9058,6 @@
     "isBroken": false,
     "baseUrl": "https://ruyamanga.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=ruyamanga.net&sz=64"
-  },
-  {
-    "name": "RYUKOMIK",
-    "title": "Ryukomik",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://ryukomik.my.id",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ryukomik.my.id&sz=64"
-  },
-  {
-    "name": "RYZUKOMIK",
-    "title": "Ryzukomik",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://ryzukomik.my.id",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ryzukomik.my.id&sz=64"
   },
   {
     "name": "S2MANGA",
@@ -9696,8 +9076,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://sadscans.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=sadscans.net&sz=64"
+    "baseUrl": "https://sadscans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=sadscans.com&sz=64"
   },
   {
     "name": "SAKAMOTODAYS",
@@ -9740,24 +9120,14 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=sarcasmscans.com&sz=64"
   },
   {
-    "name": "SASANGEYOU",
-    "title": "Sasangeyou",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://sasangeyou.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=sasangeyou.net&sz=64"
-  },
-  {
     "name": "SAYHENTAI",
     "title": "SayHentai",
     "lang": "vi",
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://sayhentaii.art",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=sayhentaii.art&sz=64"
+    "baseUrl": "https://sayhentai.live",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=sayhentai.live&sz=64"
   },
   {
     "name": "SAYTRUYENHAY",
@@ -9885,7 +9255,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://scan-trad.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=scan-trad.com&sz=64"
   },
@@ -9925,7 +9295,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://scanvf.org",
     "iconUrl": "https://www.google.com/s2/favicons?domain=scanvf.org&sz=64"
   },
@@ -9995,7 +9365,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://www.seinemanga.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.seinemanga.com&sz=64"
   },
@@ -10026,18 +9396,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://sektekomik.id",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=sektekomik.id&sz=64"
-  },
-  {
-    "name": "SENKURO",
-    "title": "Senkuro",
-    "lang": "ru",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://sektekomik.xyz",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=sektekomik.xyz&sz=64"
   },
   {
     "name": "SENPAIEDICIONES",
@@ -10170,16 +9530,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=shiyurasub.blogspot.com&sz=64"
   },
   {
-    "name": "SHOJOSCANS",
-    "title": "ShojoScans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://violetscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=violetscans.com&sz=64"
-  },
-  {
     "name": "SHOOTINGSTARSCANS",
     "title": "Shooting Star Scans",
     "lang": "en",
@@ -10225,7 +9575,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://sirenkomik.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=sirenkomik.xyz&sz=64"
   },
@@ -10300,16 +9650,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=snowmachinetranslation.com&sz=64"
   },
   {
-    "name": "SNOWSCANS",
-    "title": "SnowScans",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://flixscans.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=flixscans.net&sz=64"
-  },
-  {
     "name": "SNSCOEURTURKEY",
     "title": "SnscoeurTurkey",
     "lang": "tr",
@@ -10340,16 +9680,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.xn--l3c0azab5a2gta.com&sz=64"
   },
   {
-    "name": "SOFTKOMIK",
-    "title": "Softkomik",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://softkomik.co",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=softkomik.co&sz=64"
-  },
-  {
     "name": "SOLOOSCAN",
     "title": "SolooScan",
     "lang": "pt",
@@ -10376,8 +9706,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://v1.soulscans.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v1.soulscans.org&sz=64"
+    "baseUrl": "https://soulscans.my.id",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=soulscans.my.id&sz=64"
   },
   {
     "name": "SPIDERSCANS",
@@ -10515,7 +9845,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://sushiscan.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=sushiscan.net&sz=64"
   },
@@ -10548,6 +9878,16 @@
     "isBroken": false,
     "baseUrl": "https://sweetscan.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=sweetscan.net&sz=64"
+  },
+  {
+    "name": "TAIYO",
+    "title": "Taiyō",
+    "lang": "pt",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": true,
+    "baseUrl": "https://taiyo.moe",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=taiyo.moe&sz=64"
   },
   {
     "name": "TANKOUHENTAI",
@@ -10645,7 +9985,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://olyteconscans.xyz",
     "iconUrl": "https://www.google.com/s2/favicons?domain=olyteconscans.xyz&sz=64"
   },
@@ -10690,16 +10030,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=tempestfansub.net&sz=64"
   },
   {
-    "name": "TEMPESTSCANS",
-    "title": "TempestScans",
-    "lang": "tr",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://adumanga.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=adumanga.com&sz=64"
-  },
-  {
     "name": "TEMPLESCAN",
     "title": "TempleScan",
     "lang": "en",
@@ -10736,8 +10066,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://tenshimanga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=tenshimanga.com&sz=64"
   },
   {
     "name": "TERRITORIOLEAL",
@@ -10765,7 +10095,7 @@
     "lang": "en",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://theblank.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=theblank.net&sz=64"
   },
@@ -10790,16 +10120,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=themanga.site&sz=64"
   },
   {
-    "name": "THRIVE",
-    "title": "Thrive",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://thrive.moe",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=thrive.moe&sz=64"
-  },
-  {
     "name": "THUNDERSCANS",
     "title": "ThunderScans",
     "lang": "ar",
@@ -10818,16 +10138,6 @@
     "isBroken": false,
     "baseUrl": "https://www.tilkiscans.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.tilkiscans.com&sz=64"
-  },
-  {
-    "name": "TIMELESSTOONS",
-    "title": "TimelessToons",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://timelesstoons.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=timelesstoons.org&sz=64"
   },
   {
     "name": "TIMENAIGHT",
@@ -10868,16 +10178,6 @@
     "isBroken": false,
     "baseUrl": "https://tokyorevengers.fr",
     "iconUrl": "https://www.google.com/s2/favicons?domain=tokyorevengers.fr&sz=64"
-  },
-  {
-    "name": "TOMILOLIB",
-    "title": "TomiloLib",
-    "lang": "ru",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://tomilo-lib.ru",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=tomilo-lib.ru&sz=64"
   },
   {
     "name": "TONIZUTOON",
@@ -11136,8 +10436,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://www.toptruyenzone9.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.toptruyenzone9.com&sz=64"
+    "baseUrl": "https://www.toptruyenssi.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.toptruyenssi.com&sz=64"
   },
   {
     "name": "TORTUGACEVIRI",
@@ -11215,7 +10515,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://mangamonk.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=mangamonk.com&sz=64"
   },
@@ -11245,9 +10545,9 @@
     "lang": "vi",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://truyenqqgo.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=truyenqqgo.com&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://truyenqqno.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=truyenqqno.com&sz=64"
   },
   {
     "name": "TRUYENTRANH3Q",
@@ -11256,8 +10556,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://truyentranh3qc.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=truyentranh3qc.com&sz=64"
+    "baseUrl": "https://truyentranh3q.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=truyentranh3q.org&sz=64"
   },
   {
     "name": "TRUYENTRANHDAMMYY",
@@ -11291,7 +10591,7 @@
   },
   {
     "name": "TRUYENVN",
-    "title": "TruyenVn",
+    "title": "KhoTruyen",
     "lang": "vi",
     "contentType": "HENTAI",
     "nsfw": 1,
@@ -11325,7 +10625,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://tukangkomik.co",
     "iconUrl": "https://www.google.com/s2/favicons?domain=tukangkomik.co&sz=64"
   },
@@ -11380,16 +10680,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=tumanhwas.com&sz=64"
   },
   {
-    "name": "TWENTYFOURHNOVEL",
-    "title": "24HNovel",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://24hnovel.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=24hnovel.com&sz=64"
-  },
-  {
     "name": "TYRANTSCANS",
     "title": "TyrantScans",
     "lang": "pt",
@@ -11416,8 +10706,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://www.ulascomic01.xyz",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.ulascomic01.xyz&sz=64"
+    "baseUrl": "https://www.ulascomic00.xyz",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=www.ulascomic00.xyz&sz=64"
   },
   {
     "name": "UMIMANGA",
@@ -11466,8 +10756,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://uzaymanga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=uzaymanga.com&sz=64"
   },
   {
     "name": "VALKYRIESCAN",
@@ -11496,8 +10786,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://vcomycs.cc",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=vcomycs.cc&sz=64"
+    "baseUrl": "https://vivicomi17.info",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=vivicomi17.info&sz=64"
   },
   {
     "name": "VERCOMICSPORNO",
@@ -11528,16 +10818,6 @@
     "isBroken": false,
     "baseUrl": "https://vermanhwa.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=vermanhwa.com&sz=64"
-  },
-  {
-    "name": "VEXMANGA",
-    "title": "VexManga",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://vortexscans.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=vortexscans.org&sz=64"
   },
   {
     "name": "VFSCAN",
@@ -11576,8 +10856,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://violetscans.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=violetscans.org&sz=64"
+    "baseUrl": "https://violetscans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=violetscans.com&sz=64"
   },
   {
     "name": "VIYAFANSUB",
@@ -11590,16 +10870,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=viyafansub.com&sz=64"
   },
   {
-    "name": "VOIDSCANS",
-    "title": "HiveToon",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": true,
-    "baseUrl": "https://hivetoon.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=hivetoon.com&sz=64"
-  },
-  {
     "name": "VOIDSCANS_CO",
     "title": "VoidScans",
     "lang": "en",
@@ -11608,16 +10878,6 @@
     "isBroken": true,
     "baseUrl": "https://voidscans.co",
     "iconUrl": "https://www.google.com/s2/favicons?domain=voidscans.co&sz=64"
-  },
-  {
-    "name": "VORATOON",
-    "title": "Voratoon",
-    "lang": "id",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
   },
   {
     "name": "VORTEXSCANS",
@@ -11668,16 +10928,6 @@
     "isBroken": true,
     "baseUrl": "https://warungkomik.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=warungkomik.com&sz=64"
-  },
-  {
-    "name": "WAVETEAMY",
-    "title": "Waveteamy",
-    "lang": "ar",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://waveteamy.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=waveteamy.com&sz=64"
   },
   {
     "name": "WEBDEXSCANS",
@@ -11750,16 +11000,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=weebcentral.com&sz=64"
   },
   {
-    "name": "WEEBDEX_EN",
-    "title": "WeebDex (English)",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://weebdex.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=weebdex.org&sz=64"
-  },
-  {
     "name": "WELOMA",
     "title": "Weloma",
     "lang": "ja",
@@ -11786,8 +11026,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://westmanga.co",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=westmanga.co&sz=64"
+    "baseUrl": "https://westmanga.tv",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=westmanga.tv&sz=64"
   },
   {
     "name": "WHALEMANGA",
@@ -11826,8 +11066,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://witchscans.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=witchscans.com&sz=64"
+    "baseUrl": "https://altayscans.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=altayscans.com&sz=64"
   },
   {
     "name": "WITCOMICS",
@@ -11885,7 +11125,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://xcalibrscans.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=xcalibrscans.com&sz=64"
   },
@@ -11898,16 +11138,6 @@
     "isBroken": false,
     "baseUrl": "https://www.manhwaden.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.manhwaden.com&sz=64"
-  },
-  {
-    "name": "XOMANGA",
-    "title": "XoManga",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
   },
   {
     "name": "XOXOCOMICS",
@@ -11948,16 +11178,6 @@
     "isBroken": true,
     "baseUrl": "https://xxx.revolutionscantrad.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=xxx.revolutionscantrad.com&sz=64"
-  },
-  {
-    "name": "YAKSHACOMICS",
-    "title": "YakshaComics",
-    "lang": "en",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://yakshacomics.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=yakshacomics.com&sz=64"
   },
   {
     "name": "YANPFANSUB",
@@ -12050,16 +11270,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=yaoimangaoku.net&sz=64"
   },
   {
-    "name": "YAOIMANGAONLINE",
-    "title": "YaoiMangaOnline",
-    "lang": "en",
-    "contentType": "HENTAI",
-    "nsfw": 1,
-    "isBroken": false,
-    "baseUrl": "https://yaoimangaonline.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=yaoimangaonline.com&sz=64"
-  },
-  {
     "name": "YAOIMOBI",
     "title": "Yaoi.Mobi",
     "lang": "en",
@@ -12150,16 +11360,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=yokai-team.blogspot.com&sz=64"
   },
   {
-    "name": "YOMUMANGAS",
-    "title": "Yomu Mangas",
-    "lang": "pt",
-    "contentType": "MANGA",
-    "nsfw": 0,
-    "isBroken": false,
-    "baseUrl": "https://yomumangas.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=yomumangas.com&sz=64"
-  },
-  {
     "name": "YONABAR",
     "title": "YonaBar",
     "lang": "ar",
@@ -12205,7 +11405,7 @@
     "lang": "id",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://yumekomik.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=yumekomik.com&sz=64"
   },
@@ -12305,7 +11505,7 @@
     "lang": "ru",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://inkstory.net",
     "iconUrl": "https://www.google.com/s2/favicons?domain=inkstory.net&sz=64"
   },
