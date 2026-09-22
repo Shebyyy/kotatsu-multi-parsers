@@ -12,7 +12,7 @@ Always available at: [Releases → latest](https://github.com/Shebyyy/kotatsu-mu
 |-------|-----|-------------|
 | Kotatsu-Redo | `Kotatsu-Redo.jar` | [Source](https://github.com/Kotatsu-Redo/kotatsu-parsers-redo) |
 | YakaTeam | `YakaTeam.jar` | [Source](https://github.com/YakaTeam/kotatsu-parsers) |
-| TamerAli-0 | `TamerAli-0.jar` | [Source](https://github.com/TamerAli-0/kotatsu-parsers) |
+| Gekkoushi | `Gekkoushi.jar` | [Source](https://github.com/Gekkoushi/plugin-source) |
 | glitch-228 | `glitch-228.jar` | [Source](https://github.com/glitch-228/kaisoku-parsers) |
 | hany18h | `hany18h.jar` | [Source](https://github.com/hany18h/kotatsu-parsers) |
 | skepsun | `skepsun.jar` | [Source](https://github.com/skepsun/kototoro-parsers) |
@@ -30,9 +30,9 @@ https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/Kotats
 https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/YakaTeam.jar
 ```
 
-**TamerAli-0.jar**
+**Gekkoushi.jar**
 ```
-https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/TamerAli-0.jar
+https://github.com/Shebyyy/kotatsu-multi-parsers/releases/latest/download/Gekkoushi.jar
 ```
 
 **glitch-228.jar**
