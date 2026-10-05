@@ -5,7 +5,7 @@
     "lang": "ru",
     "contentType": "COMICS",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://acomics.ru",
     "iconUrl": "https://www.google.com/s2/favicons?domain=acomics.ru&sz=64"
   },
@@ -2770,6 +2770,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=hamtruyen1.com&sz=64"
   },
   {
+    "name": "HANAMIHEAVEN",
+    "title": "HanamiHeaven",
+    "lang": "pt",
+    "contentType": "HENTAI",
+    "nsfw": 1,
+    "isBroken": false,
+    "baseUrl": "https://hanamiheaven.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hanamiheaven.org&sz=64"
+  },
+  {
     "name": "HANGTRUYEN",
     "title": "Hang Truyện",
     "lang": "vi",
@@ -3718,6 +3728,16 @@
     "isBroken": false,
     "baseUrl": "https://kanzenin.info",
     "iconUrl": "https://www.google.com/s2/favicons?domain=kanzenin.info&sz=64"
+  },
+  {
+    "name": "KARH",
+    "title": "Karh",
+    "lang": "ar",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://karh.org",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=karh.org&sz=64"
   },
   {
     "name": "KATAKOMIK",
@@ -11828,6 +11848,16 @@
     "isBroken": false,
     "baseUrl": "https://witchscans.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=witchscans.com&sz=64"
+  },
+  {
+    "name": "WITCHTOONS",
+    "title": "WitchToons",
+    "lang": "en",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://witchtoons.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=witchtoons.net&sz=64"
   },
   {
     "name": "WITCOMICS",
