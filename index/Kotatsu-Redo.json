@@ -785,7 +785,7 @@
     "lang": "en",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://beehentai.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=beehentai.com&sz=64"
   },
@@ -1110,6 +1110,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=cerise.leitorweb.com&sz=64"
   },
   {
+    "name": "CGBUM",
+    "title": "CGBUM",
+    "lang": "id",
+    "contentType": "HENTAI",
+    "nsfw": 1,
+    "isBroken": false,
+    "baseUrl": "https://cgbum.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=cgbum.com&sz=64"
+  },
+  {
     "name": "CHAINSAWMANSCAN",
     "title": "ChainsawManScan",
     "lang": "fr",
@@ -1396,8 +1406,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "",
-    "iconUrl": ""
+    "baseUrl": "https://cuutruyen.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=cuutruyen.net&sz=64"
   },
   {
     "name": "CVNSCAN",
@@ -1936,8 +1946,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://elftoon.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=elftoon.com&sz=64"
+    "baseUrl": "https://elftoon.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=elftoon.net&sz=64"
   },
   {
     "name": "ELITEMANGA",
@@ -2546,8 +2556,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://goctruyentranhvui17.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=goctruyentranhvui17.com&sz=64"
+    "baseUrl": "https://goctruyentranhvui41.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=goctruyentranhvui41.com&sz=64"
   },
   {
     "name": "GOLGEBAHCESI",
@@ -3306,8 +3316,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://06.ikiru.wtf",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=06.ikiru.wtf&sz=64"
+    "baseUrl": "https://09.ikiru.wtf",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=09.ikiru.wtf&sz=64"
   },
   {
     "name": "ILLUSIONSCAN",
@@ -3656,8 +3666,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://www.silentquill.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.silentquill.net&sz=64"
+    "baseUrl": "",
+    "iconUrl": ""
   },
   {
     "name": "KEDI",
@@ -4626,8 +4636,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://02.lumosgg.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=02.lumosgg.com&sz=64"
+    "baseUrl": "https://03.lumosgg.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=03.lumosgg.com&sz=64"
   },
   {
     "name": "LUNARHENTAI",
@@ -5790,6 +5800,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=manga-moons.net&sz=64"
   },
   {
+    "name": "MANGAMORI",
+    "title": "MangaMori",
+    "lang": "vi",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://mangamori.dev",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangamori.dev&sz=64"
+  },
+  {
     "name": "MANGAMUNDODRAMA",
     "title": "InmortalScan",
     "lang": "es",
@@ -6456,8 +6476,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://www.mangatv.net",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.mangatv.net&sz=64"
+    "baseUrl": "https://mangatv.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=mangatv.net&sz=64"
   },
   {
     "name": "MANGATXUNOFFICIAL",
@@ -6935,7 +6955,7 @@
     "lang": "en",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://www.manhuazonghe.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=www.manhuazonghe.com&sz=64"
   },
@@ -7276,8 +7296,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://manhwaz.com",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaz.com&sz=64"
+    "baseUrl": "https://manhwaz.cc",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=manhwaz.cc&sz=64"
   },
   {
     "name": "MANHWA_ES",
@@ -8961,13 +8981,13 @@
   },
   {
     "name": "RAIJINSCANS",
-    "title": "RaijinScans",
+    "title": "Aniverse",
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://raijin-scans.fr",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=raijin-scans.fr&sz=64"
+    "baseUrl": "https://aniverse.fr",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=aniverse.fr&sz=64"
   },
   {
     "name": "RAIKISCAN",
@@ -9345,7 +9365,7 @@
     "lang": "fr",
     "contentType": "MANGA",
     "nsfw": 0,
-    "isBroken": true,
+    "isBroken": false,
     "baseUrl": "https://rimuscan.fr",
     "iconUrl": "https://www.google.com/s2/favicons?domain=rimuscan.fr&sz=64"
   },
@@ -10865,7 +10885,7 @@
     "lang": "en",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://toonily.me",
     "iconUrl": "https://www.google.com/s2/favicons?domain=toonily.me&sz=64"
   },
@@ -10875,7 +10895,7 @@
     "lang": "en",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": false,
+    "isBroken": true,
     "baseUrl": "https://toonitube.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=toonitube.com&sz=64"
   },
@@ -10888,6 +10908,16 @@
     "isBroken": false,
     "baseUrl": "https://toonizy.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=toonizy.com&sz=64"
+  },
+  {
+    "name": "TOONTOPIO",
+    "title": "ToonTop.io",
+    "lang": "en",
+    "contentType": "HENTAI",
+    "nsfw": 1,
+    "isBroken": false,
+    "baseUrl": "https://toontop.io",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=toontop.io&sz=64"
   },
   {
     "name": "TOPCOMICPORNO",
@@ -11336,8 +11366,8 @@
     "contentType": "MANGA",
     "nsfw": 0,
     "isBroken": false,
-    "baseUrl": "https://violetscans.org",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=violetscans.org&sz=64"
+    "baseUrl": "https://violetmanga.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=violetmanga.com&sz=64"
   },
   {
     "name": "VIYAFANSUB",
@@ -11985,9 +12015,9 @@
     "lang": "id",
     "contentType": "HENTAI",
     "nsfw": 1,
-    "isBroken": true,
-    "baseUrl": "https://yurilabs.my.id",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=yurilabs.my.id&sz=64"
+    "isBroken": false,
+    "baseUrl": "https://yurilab.top",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=yurilab.top&sz=64"
   },
   {
     "name": "YURILIVE",
