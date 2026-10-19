@@ -1160,6 +1160,16 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=cerise.leitorweb.com&sz=64"
   },
   {
+    "name": "CGBUM",
+    "title": "CGBUM",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://cgbum.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=cgbum.com&sz=64"
+  },
+  {
     "name": "CHAINSAWMANSCAN",
     "title": "ChainsawManScan",
     "lang": "fr",
@@ -11096,8 +11106,8 @@
     "contentType": "HENTAI",
     "nsfw": 1,
     "isBroken": false,
-    "baseUrl": "https://toonily.me",
-    "iconUrl": "https://www.google.com/s2/favicons?domain=toonily.me&sz=64"
+    "baseUrl": "https://toontop.io",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=toontop.io&sz=64"
   },
   {
     "name": "TOONITUBE",
@@ -11408,6 +11418,16 @@
     "isBroken": false,
     "baseUrl": "https://24hnovel.com",
     "iconUrl": "https://www.google.com/s2/favicons?domain=24hnovel.com&sz=64"
+  },
+  {
+    "name": "TWOKINDS_EN",
+    "title": "Twokinds",
+    "lang": "en",
+    "contentType": "COMICS",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://twokinds.keenspot.com",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=twokinds.keenspot.com&sz=64"
   },
   {
     "name": "TYRANTSCANS",
@@ -11908,6 +11928,16 @@
     "isBroken": true,
     "baseUrl": "https://worldmanhwas.zone",
     "iconUrl": "https://www.google.com/s2/favicons?domain=worldmanhwas.zone&sz=64"
+  },
+  {
+    "name": "WURMZ",
+    "title": "Wurmz",
+    "lang": "id",
+    "contentType": "MANGA",
+    "nsfw": 0,
+    "isBroken": false,
+    "baseUrl": "https://wurmz.net",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=wurmz.net&sz=64"
   },
   {
     "name": "XCALIBRSCANS",
